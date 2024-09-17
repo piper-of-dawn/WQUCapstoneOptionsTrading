@@ -23,3 +23,13 @@
  year = {1993}
 }
 ```
+
+```
+@book{theil1966,
+  author    = {Herman Theil},
+  title     = {Applied Economic Forecasting},
+  publisher = {North-Holland Publishing Company},
+  year      = {1966}
+}
+
+```
