@@ -1,0 +1,9 @@
+{
+  "textFontFamily": "Georgia Pro,Charter",
+  "baseFontSize": 21,
+  "cssTheme": "Sandstorm",
+  "interfaceFontFamily": "Arial Nova",
+  "baseFontSizeAction": true,
+  "accentColor": "#706c00",
+  "theme": "moonstone"
+}

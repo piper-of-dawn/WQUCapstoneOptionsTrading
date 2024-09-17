@@ -1,0 +1,86 @@
+\documentclass{article}[16pt]
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[a4paper, margin=1in]{geometry} % Reducing margins to 1 inch
+\usepackage{setspace} % For line spacing
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{filecontents}
+\usepackage{verbatim}
+\usepackage{eurosym}
+\usepackage{float}
+\usepackage[export]{adjustbox}
+\usepackage{amsthm}
+\newtheorem{definition}{Definition}
+\usepackage[style=apa,uniquename=full, backend=biber]{biblatex}
+\addbibresource{citations.bib} % or your .bib file name
+\DeclareLanguageMapping{american}{american-apa} % Ensures APA f
+% \bibliographystyle{mla} 
+
+\begin{document}
+% \bibliography{citations} % assuming your BibTeX file is named citations.bib
+\onehalfspacing
+\include{title}
+
+\tableofcontents
+
+\newpage
+% Abstract section
+\section{Problem Statement}
+
+\textbf{Since the market does not have perfect knowledge about the future so the implied volatility and the realized volatility can and will be different. Therein, lies the risk management problem / business or trading opportunity.}
+
+\begin{definition}
+    The realized volatility is the actual variability in the price of the underlying that materializes due to the randomness of the stochastic process.  Randomness is usually defined as a Weiner process or a Brownian motion.
+\end{definition}
+
+\begin{definition}
+    Implied volatility is how the market is pricing the option currently. The implied volatility stems from the pricing model and the contract terms. For a particular option with strike $ K$, and time to expiry $ \tau$, there will be an observable market price.
+
+    $$ C_{obs}(K, \tau) = C(\sigma^{\mathbf{Q}}, K, \tau)$$
+    We can use this information to back calculate the implied volatility $ \sigma^{\mathbf{Q}}$ that the market is using to price.
+\end{definition}
+
+
+
+\begin{enumerate}
+    \item The paper will analyze the differences (over last few years) between the realized and the implied volatility across different asset classes or industries and generate insights on the volatility risk premium (the markup of the implied volatility over the realized volatility).
+
+    \item Implied Volatility is a forward looking estimate while the realized volatility is a backward looking estimate. The autocorrelations between the two can be interesting to study.
+
+    \item \textbf{HIGHLY AMBITIOUS AND MAY NOT WORK AS I INTEND}
+          A unsupervised learning approach to cluster the tickers based on the realized and implied volatility differences (Volatility Risk Premium) .
+          \begin{itemize}
+              \item How robust are the clusters over time?
+              \item If the clusters are robust, what are the characteristics of the tickers in each cluster? Do they belong to the same asset class or industry?
+              \item If the clusters are indeed robust, can we use the clusters to generate trading signals?
+          \end{itemize}
+
+\end{enumerate}
+
+
+\section{Roadmap}
+\begin{enumerate}
+    \item \textbf{Data Collection:} Collect the option chain data (which also includes Implied Volatility) for all the traded tickers. Organize the tickers by asset class or industry.
+    \item \textbf{Data Preprocessing:} The data would contain option prices for multiple strike prices and maturities. Sample 25 Delta Call/Put and 50 Delta Call/Put. Take the nearest maturity for a given trading day. Join the spot price data with the option chain data.
+    \item \textbf{Realized Volatility Calculation:} Calculation of the realized volatility is not a trivial task. See \cite{Corsi2005}
+    \item \textbf{Data Visualisation and Pattern Finding:} Visualize the Volatility Risk Premium for each ticker. Look for patterns accross asset classes or industries. There
+          must be some unique insights (I hope there is!). Do an empirical study and answer the following questions:
+          \begin{enumerate}
+              \item Is the Volatility Risk Premium higher for certain asset classes or industries?
+              \item Has Volatility Risk Premium, ever been negative?
+              \item How correlated are the Volatility Risk Premiums across different asset classes or industries?
+              \item How correlated is implied volatility with the future realized volatility? Does the correlation change when we look at different asset classes or industries?
+          \end{enumerate}
+
+          \textbf{UNCHARTED TERRITORY BEGINS HERE}
+    \item \textbf{Clustering:} Use unsupervised learning to cluster the tickers based on the volatility risk premium.
+    \item \textbf{Evaluation:} Validate the robustness of the clusters accross time.
+    \item \textbf{Trading Strategy:} If the clusters are robust, can we use the clusters to generate trading signals?
+\end{enumerate}
+I will deliberately avoid attempting to predict or forecast anything. Be it volatility or market regimes, given the inherent difficulties and unreliability in such forecasts. Take for example the financial crisis of 2008. The economy was already in recession during 2007 however IMF predicted that US economy would grow by 0.6\% in 2008 and this growth will further improve during 2009. However, in reality, the US Economy grew by 0.1\% in 2008 and by -2.5\% in 2009. Forget about forecasting recessions (or regimes), we are poor in realizing that we are already in a recession (or regime). Forecasting is an extremely difficult task and I am humble enough to not even attempt it.
+\printbibliography
+\end{document}

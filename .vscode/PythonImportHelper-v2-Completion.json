@@ -1,0 +1,288 @@
+[
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
+        "label": "print",
+        "importPath": "rich",
+        "description": "rich",
+        "isExtraImport": true,
+        "detail": "rich",
+        "documentation": {}
+    },
+    {
+        "label": "print",
+        "importPath": "rich",
+        "description": "rich",
+        "isExtraImport": true,
+        "detail": "rich",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "polars",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "polars",
+        "description": "polars",
+        "detail": "polars",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "ThetaClient",
+        "importPath": "thetadata",
+        "description": "thetadata",
+        "isExtraImport": true,
+        "detail": "thetadata",
+        "documentation": {}
+    },
+    {
+        "label": "OptionReqType",
+        "importPath": "thetadata",
+        "description": "thetadata",
+        "isExtraImport": true,
+        "detail": "thetadata",
+        "documentation": {}
+    },
+    {
+        "label": "OptionRight",
+        "importPath": "thetadata",
+        "description": "thetadata",
+        "isExtraImport": true,
+        "detail": "thetadata",
+        "documentation": {}
+    },
+    {
+        "label": "DateRange",
+        "importPath": "thetadata",
+        "description": "thetadata",
+        "isExtraImport": true,
+        "detail": "thetadata",
+        "documentation": {}
+    },
+    {
+        "label": "DataType",
+        "importPath": "thetadata",
+        "description": "thetadata",
+        "isExtraImport": true,
+        "detail": "thetadata",
+        "documentation": {}
+    },
+    {
+        "label": "StockReqType",
+        "importPath": "thetadata",
+        "description": "thetadata",
+        "isExtraImport": true,
+        "detail": "thetadata",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "get_data_for_items",
+        "kind": 2,
+        "importPath": "data_fetcher",
+        "description": "data_fetcher",
+        "peekOfCode": "def get_data_for_items(fetch_function, items, *args, **kwargs):\n    # Run the event loop for asynchronous execution\n    return asyncio.run(fetch_multiple(fetch_function, items, *args, **kwargs))\ndata = get_data_for_items(get_expirations, [\"AAPL\", \"GOOGL\", \"MSFT\"])\nprint(data)",
+        "detail": "data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "data_fetcher",
+        "description": "data_fetcher",
+        "peekOfCode": "data = get_data_for_items(get_expirations, [\"AAPL\", \"GOOGL\", \"MSFT\"])\nprint(data)",
+        "detail": "data_fetcher",
+        "documentation": {}
+    },
+    {
+        "label": "get_data_for_items",
+        "kind": 2,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "def get_data_for_items(fetch_function, items, *args, **kwargs):\n    # Run the event loop for asynchronous execution\n    return asyncio.run(fetch_multiple(fetch_function, items, *args, **kwargs))\nasync def fetch_multiple_tickers(tickers, start_date, end_date, interval_size, tasks):\n    async with aiohttp.ClientSession() as session:\n        tasks = [fetch_stock_data(session, ticker, start_date, end_date, interval_size) for ticker in tickers]\n        results = await asyncio.gather(*tasks)\n        return results\ndef get_stock_data_for_tickers(tickers, start_date, end_date, interval_size):\n    # Run the event loop for asynchronous execution",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "get_stock_data_for_tickers",
+        "kind": 2,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "def get_stock_data_for_tickers(tickers, start_date, end_date, interval_size):\n    # Run the event loop for asynchronous execution\n    return asyncio.run(fetch_multiple_tickers(tickers, start_date, end_date, interval_size))\ntickers = pl.read_csv('tickersAndIndustries.csv')['Ticker'].to_list()\nstart_date = \"20190902\"\nend_date = \"20240910\"\ninterval_size = 60000\nn = 5\nfor i in range(0, len(tickers), n):\n    print(i)",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "make_df",
+        "kind": 2,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "def make_df(pkl_file, schema):\n    with open(pkl_file, 'rb') as f:\n        data = pickle.load(f)    \n    ticker_list = [list(d.keys())[0] for d  in data]\n    data_list = [pl.DataFrame(d[t]['response'], schema=schema, orient='row').with_columns(pl.lit(t).alias('ticker')) for d, t in zip(data, ticker_list)]\n    return reduce(lambda x, y: pl.concat([x, y]), data_list)\nbig_list = [make_df(f, schema) for f in tqdm(price_data)]\nDATA = reduce(lambda x, y: pl.concat([x, y]), big_list)\nDATA.write_parquet('price_data.parquet')",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "tickers",
+        "kind": 5,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "tickers = pl.read_csv('tickersAndIndustries.csv')['Ticker'].to_list()\nstart_date = \"20190902\"\nend_date = \"20240910\"\ninterval_size = 60000\nn = 5\nfor i in range(0, len(tickers), n):\n    print(i)\n    data = get_stock_data_for_tickers(tickers[i:i+n], start_date, end_date, interval_size)\n    with open(f'price{i}.pkl', 'wb') as f:\n        pickle.dump(data, f)",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "start_date",
+        "kind": 5,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "start_date = \"20190902\"\nend_date = \"20240910\"\ninterval_size = 60000\nn = 5\nfor i in range(0, len(tickers), n):\n    print(i)\n    data = get_stock_data_for_tickers(tickers[i:i+n], start_date, end_date, interval_size)\n    with open(f'price{i}.pkl', 'wb') as f:\n        pickle.dump(data, f)\n    print(f\"{i} epoch done\")",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "end_date",
+        "kind": 5,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "end_date = \"20240910\"\ninterval_size = 60000\nn = 5\nfor i in range(0, len(tickers), n):\n    print(i)\n    data = get_stock_data_for_tickers(tickers[i:i+n], start_date, end_date, interval_size)\n    with open(f'price{i}.pkl', 'wb') as f:\n        pickle.dump(data, f)\n    print(f\"{i} epoch done\")\nprice_data = [f for f in os.listdir() if f.startswith('price')]",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "interval_size",
+        "kind": 5,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "interval_size = 60000\nn = 5\nfor i in range(0, len(tickers), n):\n    print(i)\n    data = get_stock_data_for_tickers(tickers[i:i+n], start_date, end_date, interval_size)\n    with open(f'price{i}.pkl', 'wb') as f:\n        pickle.dump(data, f)\n    print(f\"{i} epoch done\")\nprice_data = [f for f in os.listdir() if f.startswith('price')]\npkl_file = price_data[0]",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "n = 5\nfor i in range(0, len(tickers), n):\n    print(i)\n    data = get_stock_data_for_tickers(tickers[i:i+n], start_date, end_date, interval_size)\n    with open(f'price{i}.pkl', 'wb') as f:\n        pickle.dump(data, f)\n    print(f\"{i} epoch done\")\nprice_data = [f for f in os.listdir() if f.startswith('price')]\npkl_file = price_data[0]\nwith open(pkl_file, 'rb') as f:",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "price_data",
+        "kind": 5,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "price_data = [f for f in os.listdir() if f.startswith('price')]\npkl_file = price_data[0]\nwith open(pkl_file, 'rb') as f:\n        data = pickle.load(f)  \nschema=data[0]['WEAT']['header']['format']\ndef make_df(pkl_file, schema):\n    with open(pkl_file, 'rb') as f:\n        data = pickle.load(f)    \n    ticker_list = [list(d.keys())[0] for d  in data]\n    data_list = [pl.DataFrame(d[t]['response'], schema=schema, orient='row').with_columns(pl.lit(t).alias('ticker')) for d, t in zip(data, ticker_list)]",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "pkl_file",
+        "kind": 5,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "pkl_file = price_data[0]\nwith open(pkl_file, 'rb') as f:\n        data = pickle.load(f)  \nschema=data[0]['WEAT']['header']['format']\ndef make_df(pkl_file, schema):\n    with open(pkl_file, 'rb') as f:\n        data = pickle.load(f)    \n    ticker_list = [list(d.keys())[0] for d  in data]\n    data_list = [pl.DataFrame(d[t]['response'], schema=schema, orient='row').with_columns(pl.lit(t).alias('ticker')) for d, t in zip(data, ticker_list)]\n    return reduce(lambda x, y: pl.concat([x, y]), data_list)",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "big_list",
+        "kind": 5,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "big_list = [make_df(f, schema) for f in tqdm(price_data)]\nDATA = reduce(lambda x, y: pl.concat([x, y]), big_list)\nDATA.write_parquet('price_data.parquet')",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "DATA",
+        "kind": 5,
+        "importPath": "get_tickers",
+        "description": "get_tickers",
+        "peekOfCode": "DATA = reduce(lambda x, y: pl.concat([x, y]), big_list)\nDATA.write_parquet('price_data.parquet')",
+        "detail": "get_tickers",
+        "documentation": {}
+    },
+    {
+        "label": "PASSWORD",
+        "kind": 5,
+        "importPath": "theta",
+        "description": "theta",
+        "peekOfCode": "PASSWORD = os.getenv('PASSWORD')\nprint(PASSWORD)\nUSERNAME = 'kumarshan25@gmail.com'\nclient = ThetaClient(username=USERNAME, passwd=PASSWORD, jvm_mem=4, timeout=15)\n    # Connect to the Terminal\nwith client.connect():\n    # Make the request\n    data = client.get_expirations(\n        root='MSFT',\n    )",
+        "detail": "theta",
+        "documentation": {}
+    },
+    {
+        "label": "USERNAME",
+        "kind": 5,
+        "importPath": "theta",
+        "description": "theta",
+        "peekOfCode": "USERNAME = 'kumarshan25@gmail.com'\nclient = ThetaClient(username=USERNAME, passwd=PASSWORD, jvm_mem=4, timeout=15)\n    # Connect to the Terminal\nwith client.connect():\n    # Make the request\n    data = client.get_expirations(\n        root='MSFT',\n    )",
+        "detail": "theta",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "theta",
+        "description": "theta",
+        "peekOfCode": "client = ThetaClient(username=USERNAME, passwd=PASSWORD, jvm_mem=4, timeout=15)\n    # Connect to the Terminal\nwith client.connect():\n    # Make the request\n    data = client.get_expirations(\n        root='MSFT',\n    )",
+        "detail": "theta",
+        "documentation": {}
+    }
+]

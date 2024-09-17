@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "ac57356beaa4dade",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4f7c8bd7ae53285",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "323299b496f4b90b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature Review.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "720cfd6a94f1925b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Citation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d6e81d36adcd6283",
+    "type": "split",
+    "children": [
+      {
+        "id": "a57c2fadcca564f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a4fd29ab8c09403",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e899258cc2ae2f0e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6a97594703e4e54c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "49a7f6e77e5bb9dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "1eee26a9d0e446f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b51f3b24320f1ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Literature Review.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c4cf209903d5e4b7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Literature Review.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b1ee67cc0faab299",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6c749ef92ae0cdda",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Literature Review.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "323299b496f4b90b",
+  "lastOpenFiles": [
+    "Citation.md",
+    "Literature Review.md",
+    "How to get historical implied volatility.md",
+    "Copy Pasta.md",
+    "Notes from Literature/Regimes of Volatility Some Observations on the Variation of S&P 500 Implied Volatilities (Emanuel Derman).md",
+    "Gamma and Convexity.md",
+    "Variance Ratio Test.md",
+    "Realized Volatility Calculation.md",
+    "Welcome.md",
+    "Notes from Literature"
+  ]
+}

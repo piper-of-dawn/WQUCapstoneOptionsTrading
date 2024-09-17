@@ -1,0 +1,6 @@
+
+**_Length and Frequency of realized volatility:_**
+
+The selection of length/frequency is probably the first and foremost important factor of the realized volatility measurement. While we sometimes put little to no thought into the realized volatility length/frequency, this is far from being a trivial question. Let’s say that we want to analyze the 1-month volatility. Which lookback window should we look at? should we compare that to the realized 10-day/20-day/40-day or even 100-day? what can assure us that the recent 20-day volatility is going to be a suitable comparison for the future 1-month?. Furthermore, how frequent should we sample the data? should we sample returns on close-close basis, or should we sample the data using hourly/tick data?
+
+These results are rather intuitive, as short term realized vol has less data points which makes the weight of each data point greater on the overall variance (and therefore, realized vol), so as our realized volatility look period increases the less meaningful the sampling frequency. When analyzing the volatility factor we are NOT actually looking to forecast the forward volatility, but rather have a sense of whether we are in a high or low volatility regime.
