@@ -1,0 +1,101 @@
+ticker,category
+WEAT,Agriculture
+JETS,Airlines
+TSLA,Auto
+F,Auto
+BAC,Bank
+SOFI,Bank
+XBI,Biotechnology
+ARKG,Biotechnology
+XLY,Consumer
+RIOT,Crypto
+MSTR,Crypto
+COIN,Crypto
+MARA,Crypto
+ETH,Crypto
+BITO,Crypto-ETF
+EMB,Emerging Credit
+VWO,Emerging Index
+EEM,Emerging Index
+ICLN,Energy
+XLE,Energy
+XOP,Energy
+USO,Energy
+TAN,Energy
+OIH,Energy
+UNG,Energy
+NFLX,Entertainment
+AMC,Entertainment
+SIRI,Entertainment
+XLF,Financials
+KBE,Financials
+INDA,Foreign Index
+EWJ,Foreign Index
+KWEB,Foreign Index
+FXI,Foreign Index
+EWC,Foreign Index
+EWG,Foreign Index
+EWZ,Foreign Index
+FEZ,Foreign Index
+EWW,Foreign Index
+ASHR,Foreign Index
+EFA,Foreign Index
+FXY,FX
+FXE,FX
+XLV,Healthcare
+ALNY,Healthcare
+XLI,Industrials
+GEO,Industrials
+AMZN,Internet
+BABA,Internet
+META,Internet
+DIA,Large Cap Index
+RSP,Large Cap Index
+VTI,Large Cap Index
+SPY,Large Cap Index
+XLB,Materials
+SILJ,Metals
+GDXJ,Metals
+XME,Metals
+URNM,Metals
+GDX,Metals
+URA,Metals
+GLD,Metals
+IAU,Metals
+SLV,Metals
+MDY,Mid Cap Index
+TLT,Rates
+IEF,Rates
+ITB,Real Estate
+XHB,Real Estate
+IYR,Real Estate
+XLRE,Real Estate
+KRE,Real Estate
+VNQ,Real Estate
+XRT,Retail
+COST,Retail
+NKE,Retail
+AVGO,Semi
+AMD,Semi
+TSM,Semi
+INTC,Semi
+NVDA,Semi
+IJR,Small Cap Index
+IWM,Small Cap Index
+CRWD,Software
+MSFT,Software
+AAPL,Software
+PLTR,Software
+SCHD,Specialty
+MSOS,Specialty
+XLP,Staples
+SMH,Technology
+ARKK,Technology
+QQQ,Technology
+XLK,Technology
+GME,Technology
+XLC,Technology
+VZ,Telecom
+HYG,US Credit
+LQD,US Credit
+XLU,Utilities
