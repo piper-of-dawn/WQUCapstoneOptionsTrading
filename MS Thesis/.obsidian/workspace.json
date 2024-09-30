@@ -13,25 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature Review.md",
+                "file": "Citation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "720cfd6a94f1925b",
+            "id": "8751959e8a3ff3ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Citation.md",
+                "file": "Realised Volatility.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28118e9834ea6bc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "222e92f485b142ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature Review.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "49a7f6e77e5bb9dc",
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature Review.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature Review.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature Review.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -159,16 +183,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "323299b496f4b90b",
+  "active": "28118e9834ea6bc6",
   "lastOpenFiles": [
+    "Realised Volatility.md",
     "Citation.md",
+    "Pasted image 20240929122148.png",
+    "Pasted image 20240929122022.png",
+    "Pasted image 20240929121909.png",
     "Literature Review.md",
-    "How to get historical implied volatility.md",
-    "Copy Pasta.md",
-    "Notes from Literature/Regimes of Volatility Some Observations on the Variation of S&P 500 Implied Volatilities (Emanuel Derman).md",
-    "Gamma and Convexity.md",
-    "Variance Ratio Test.md",
+    "Pasted image 20240929074043.png",
+    "Pasted image 20240929071154.png",
+    "Pasted image 20240928150412.png",
+    "Pasted image 20240928150317.png",
+    "Pasted image 20240928150057.png",
+    "Pasted image 20240928145949.png",
+    "Pasted image 20240928145825.png",
+    "Untitled.md",
+    "MLE Derivation.md",
+    "Meauring Realized Volatility.md",
     "Realized Volatility Calculation.md",
+    "How to get historical implied volatility.md",
+    "Gamma and Convexity.md",
+    "Notes from Literature/Regimes of Volatility Some Observations on the Variation of S&P 500 Implied Volatilities (Emanuel Derman).md",
+    "Copy Pasta.md",
+    "Variance Ratio Test.md",
     "Welcome.md",
     "Notes from Literature"
   ]

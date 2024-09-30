@@ -541,6 +541,37 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.def
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\filecontents\filecontents.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\filecontents\filecontents.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\filecontents\filecontents.sty
@@ -722,16 +753,6 @@ INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
@@ -858,9 +879,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT .\main.aux
 INPUT main.aux
 INPUT main.aux
-INPUT .\title.aux
-INPUT title.aux
-INPUT title.aux
 OUTPUT main.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -928,42 +946,14 @@ OUTPUT main.pdf
 INPUT C:\Users\kumar\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\main.toc
-INPUT main.toc
-INPUT main.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 OUTPUT main.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT main.aux
-INPUT .\title.aux
-INPUT title.aux
-INPUT title.aux
-INPUT main.run.xml
-OUTPUT main.run.xml
-INPUT C:\Users\kumar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\kumar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT .\inputs\literature_review.tex
+INPUT .\inputs\literature_review.tex
+INPUT .\inputs\literature_review.tex
+INPUT inputs\literature_review.tex
+INPUT .\inputs\literature_review.tex
+INPUT .\inputs\literature_review.tex
+INPUT inputs\literature_review.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm

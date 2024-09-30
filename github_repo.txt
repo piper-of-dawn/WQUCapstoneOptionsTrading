@@ -1,0 +1,2 @@
+The literature folder in the following GitHub Repository has all the papers cited in Literature Review:
+https://github.com/piper-of-dawn/WQUCapstoneOptionsTrading

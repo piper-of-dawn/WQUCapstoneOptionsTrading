@@ -1,0 +1,14 @@
+
+\begin{displayquote}
+    “Never cross a river if it is on average four feet deep” - Nassim Nicholas Taleb (Antifragile: Things That Gain from Disorder)
+    \end{displayquote}
+    
+    \cite{cont2005volatility} provides an excellent literature review where the author has reviewed the papers that study the properties of volatility in financial markets. The author has discussed phenomena such as excess volatility, heavy tails and volatility clustering in financial time series data. The volatility clustering is an interesting phenomenon. The changes in volatility exhibit a persistence where large changes are followed by large changes and vice versa (\cite{mandelbrot1963variation}). A quantitative implication of this statement is that although the returns of security are usually not autocorrelated,  the squared returns often exhibit a positive autocorrelation, which slowly decays over time.
+    
+    Modelling the realised volatility is an interesting and non-trivial problem because of the presence of clustering and tendencies of mean reversion.  In this section, we seek to model the realised volatility, through Ornstein–Uhlenbeck process (\cite{stein1991}).   \cite{stein1991} study the stock price distributions that follow a diffusion process with a stochastically varying volatility parameter.
+    
+    The modelling process of realised volatility in this thesis is divided into two subsections. The first section goes over the theory of the Ornstein-Uhlenbeck process, where we first derive the moments of the process and then estimate the parameters of the process for a single realization through maximum likelihood.
+    
+    The second section does the empirics. We use the closed-form solutions of maximum likelihood parameters derived in the preceding section to estimate the parameters of the Ornstein-Uhlenbeck (OU) process from the real volatility data. To achieve this, we select a cross-section of 100 tickers spread over 34 different asset classes or industries. 
+    
+    We start with the measurement of realized volatility. We then estimate the ambient volatility, mean reversion and meta-volatility (parameters of the OU process) for each ticker and compare them across asset classes and industries to generate insights.

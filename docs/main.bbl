@@ -19,6 +19,445 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{abdelmessih2024volatility}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b6fc23cbe2ce5a26ff044699570953d}{%
+           family={Abdelmessih},
+           familyi={A\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{fullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{bibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authorbibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authornamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authorfullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MoonTower Meta}
+      \field{title}{Volatility Depends on the Resolution}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://moontowermeta.com/volatility-depends-on-the-resolution/
+      \endverb
+      \verb{url}
+      \verb https://moontowermeta.com/volatility-depends-on-the-resolution/
+      \endverb
+    \endentry
+    \entry{ammann2009implied}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6bbc9d876c6700d593692fe04ffb9b08}{%
+           family={Ammann},
+           familyi={A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9702c461f273c98ceab5f987905751e8}{%
+           family={Skovmand},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ada00a055cc8ad7c686acfb1a747c09b}{%
+           family={Verhofen},
+           familyi={V\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3eeec08c3cc8898e334dd68e1d8ab705}
+      \strng{fullhash}{11965ef02441fcdcfe923d920d8f6b33}
+      \strng{bibnamehash}{11965ef02441fcdcfe923d920d8f6b33}
+      \strng{authorbibnamehash}{11965ef02441fcdcfe923d920d8f6b33}
+      \strng{authornamehash}{3eeec08c3cc8898e334dd68e1d8ab705}
+      \strng{authorfullhash}{11965ef02441fcdcfe923d920d8f6b33}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Implied and Realized Volatility in the Cross-Section of Equity Options}
+      \field{year}{2009}
+    \endentry
+    \entry{Ayache2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d614819cafeeac16427326ef7b3a09bb}{%
+           family={Ayache},
+           familyi={A\bibinitperiod},
+           given={Elie},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{fullhash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{bibnamehash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{authorbibnamehash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{authornamehash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{authorfullhash}{d614819cafeeac16427326ef7b3a09bb}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wilmott Magazine}
+      \field{title}{What is Implied by Implied Volatility?}
+      \field{year}{2024}
+    \endentry
+    \entry{bennett2020trading}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13dc30ad41361f952fb1596549c5df82}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{fullhash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{bibnamehash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{authorbibnamehash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{authornamehash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{authorfullhash}{13dc30ad41361f952fb1596549c5df82}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Trading Volatility, Correlation, Term Structure and Skew}
+      \field{year}{2020}
+    \endentry
+    \entry{bennett2012measuring}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=13dc30ad41361f952fb1596549c5df82}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae2e089021871be1b81758a6d07fbe6d}{%
+           family={Gil},
+           familyi={G\bibinitperiod},
+           given={Miguel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Santander Investment Securities Inc.}%
+      }
+      \strng{namehash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{fullhash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{bibnamehash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{authorbibnamehash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{authornamehash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{authorfullhash}{af6be180f0d2106d265e18c6db7867ca}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{Accessed via internal research, Madrid}
+      \field{title}{Measuring Historical Volatility: Close-to-Close, Exponentially Weighted, Parkinson, Garman-Klass, Rogers-Satchell and Yang-Zhang Volatility}
+      \field{year}{2012}
+    \endentry
+    \entry{calibratingOuProcess}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=abbe72cb1982c69c77962230b9ee627b}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Thijs\bibnamedelimb Van\bibnamedelima Den},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{fullhash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{bibnamehash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{authorbibnamehash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{authornamehash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{authorfullhash}{abbe72cb1982c69c77962230b9ee627b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.statisticshowto.com/wp-content/uploads/2016/01/Calibrating-the-Ornstein.pdf}}
+      \field{note}{Accessed: 2024-09-28}
+      \field{title}{Calibrating the Ornstein-Uhlenbeck Process}
+      \field{year}{2011}
+    \endentry
+    \entry{black1973pricing}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=93277dfc1ebe8d44428e74799781e4d7}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Fischer},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=301bb16d9f303a488dac1c73931c0eff}{%
+           family={Scholes},
+           familyi={S\bibinitperiod},
+           given={Myron},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{fullhash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{bibnamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authorbibnamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authornamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authorfullhash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{3}
+      \field{title}{The Pricing of Options and Corporate Liabilities}
+      \field{volume}{81}
+      \field{year}{1973}
+      \field{pages}{637\bibrangedash 654}
+      \range{pages}{18}
+    \endentry
+    \entry{bollerslev2017}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=39f8f5a428abd62057a0152546172106}{%
+           family={Bollerslev},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8091b394abd70bbfd51c13cbe9e0e7a}{%
+           family={Hood},
+           familyi={H\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94ea9cae2de2e792cf93ee45cf72e12b}{%
+           family={Huss},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07123ce41f03a63251aed38e35aa6029}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Lasse\bibnamedelima Heje},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b250c826403737aaca16b70d855ba175}
+      \strng{fullhash}{d12f16b6628e3767dc1068fe8969f32b}
+      \strng{bibnamehash}{d12f16b6628e3767dc1068fe8969f32b}
+      \strng{authorbibnamehash}{d12f16b6628e3767dc1068fe8969f32b}
+      \strng{authornamehash}{b250c826403737aaca16b70d855ba175}
+      \strng{authorfullhash}{d12f16b6628e3767dc1068fe8969f32b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{Available at SSRN: \url{https://ssrn.com/abstract=2722591} or \url{http://dx.doi.org/10.2139/ssrn.2722591}}
+      \field{title}{Risk Everywhere: Modeling and Managing Volatility}
+      \field{year}{2017}
+    \endentry
+    \entry{canina1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e21d2bba2641953e4507bcab046fbc48}{%
+           family={Canina},
+           familyi={C\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba9e7bf96e3d094f2ef4b89ff89bd3dd}{%
+           family={Figlewski},
+           familyi={F\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Oxford University Press, Society for Financial Studies]}%
+      }
+      \strng{namehash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{fullhash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{bibnamehash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{authorbibnamehash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{authornamehash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{authorfullhash}{2d239c403b25dd85c04f96f9506f0252}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Implied volatility is widely believed to be informationally superior to historical volatility, because it is the "market's" forecast of future volatility...}
+      \field{issn}{0893-9454, 1465-7368}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{number}{3}
+      \field{title}{The Informational Content of Implied Volatility}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{659\bibrangedash 681}
+      \range{pages}{23}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2961982
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2961982
+      \endverb
+    \endentry
+    \entry{cantaroOuProcess}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=77cd639f916ecd5ca8afc974cfa9af73}{%
+           family={Cantarutti},
+           familyi={C\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{fullhash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{bibnamehash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{authorbibnamehash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{authornamehash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{authorfullhash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-09-28}
+      \field{title}{Ornstein-Uhlenbeck Process and Applications}
+      \field{year}{2020}
+    \endentry
+    \entry{Cohen1996}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8eafcfd530dadafbcb01bd4f544e0f84}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Benjamin\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Bank for International Settlements}%
+      }
+      \strng{namehash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{fullhash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{bibnamehash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{authorbibnamehash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{authornamehash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{authorfullhash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Derivatives and Asset Price Volatility: A Test Using Variance Ratios}
+      \field{type}{Working Paper}
+      \field{year}{1996}
+    \endentry
+    \entry{cont2005volatility}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4adbb1a85104895dfcc25d4e2cac8cce}{%
+           family={Cont},
+           familyi={C\bibinitperiod},
+           given={Rama},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=220b1a437ccc1f958c858ae3f466b0f0}{%
+           family={Kirman},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=24f3ccc14a528a2dc4f4efa80ae802d5}{%
+           family={Teyssière},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Centre de Mathématiques appliquées, Ecole Polytechnique}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{fullhash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{bibnamehash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{authorbibnamehash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{authornamehash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{authorfullhash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{editorbibnamehash}{57a379e6f363e8063c12ea174e4edf6f}
+      \strng{editornamehash}{57a379e6f363e8063c12ea174e4edf6f}
+      \strng{editorfullhash}{57a379e6f363e8063c12ea174e4edf6f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Long Memory in Economics}
+      \field{note}{To appear}
+      \field{title}{Volatility Clustering in Financial Markets: Empirical Facts and Agent-Based Models}
+      \field{year}{2005}
+      \field{pages}{289\bibrangedash 309}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb https://www.polytechnique.edu
+      \endverb
+      \verb{url}
+      \verb https://www.polytechnique.edu
+      \endverb
+    \endentry
     \entry{Corsi2005}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=129c77b46135add6df324fff12fb9b28}{%
@@ -53,8 +492,748 @@
       \field{type}{PhD dissertation}
       \field{year}{2005}
     \endentry
+    \entry{derman1999}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78e836e64f0f5750ed7ada3929d1f0f5}{%
+           family={Derman},
+           familyi={D\bibinitperiod},
+           given={Emanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Goldman Sachs}%
+      }
+      \strng{namehash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{fullhash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{bibnamehash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{authorbibnamehash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{authornamehash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{authorfullhash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Regimes of Volatility: Some Observations on the Variation of S\&P 500 Implied Volatilities}
+      \field{type}{techreport}
+      \field{year}{1999}
+    \endentry
+    \entry{liu2012comparison}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fb9b4a8ae692d9b34a218438c28826f8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Lily},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4a103d050a59b8cf50ce433a3cc51ec}{%
+           family={Patton},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22fcbc93c38819e962968aad3e3cba7f}{%
+           family={Sheppard},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {Duke University}%
+        {University of Oxford}%
+      }
+      \strng{namehash}{76d99abd7c1edcfefd24638db07d9c17}
+      \strng{fullhash}{34dfbcd75cde9eae537b839c5d45eab0}
+      \strng{bibnamehash}{34dfbcd75cde9eae537b839c5d45eab0}
+      \strng{authorbibnamehash}{34dfbcd75cde9eae537b839c5d45eab0}
+      \strng{authornamehash}{76d99abd7c1edcfefd24638db07d9c17}
+      \strng{authorfullhash}{34dfbcd75cde9eae537b839c5d45eab0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{December 5, 2012}
+      \field{title}{Does Anything Beat 5-Minute RV? A Comparison of Realized Measures Across Multiple Asset Classes}
+      \field{year}{2012}
+    \endentry
+    \entry{mandelbrot1963variation}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d1efa9919078b1d84e99492d760dcc14}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={Benoit\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{fullhash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{bibnamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authorbibnamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authornamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authorfullhash}{d1efa9919078b1d84e99492d760dcc14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business}
+      \field{number}{4}
+      \field{title}{The Variation of Certain Speculative Prices}
+      \field{volume}{36}
+      \field{year}{1963}
+      \field{pages}{392\bibrangedash 417}
+      \range{pages}{26}
+    \endentry
+    \entry{mayhew1995implied}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3afd31c613a1c37d9a5e8c9327d994f7}{%
+           family={Mayhew},
+           familyi={M\bibinitperiod},
+           given={Stewart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CFA Institute}%
+      }
+      \strng{namehash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{fullhash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{bibnamehash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{authorbibnamehash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{authornamehash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{authorfullhash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Analysts Journal}
+      \field{number}{4}
+      \field{title}{Implied Volatility}
+      \field{volume}{51}
+      \field{year}{1995}
+      \field{pages}{8\bibrangedash 20}
+      \range{pages}{13}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/4479853
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/4479853
+      \endverb
+    \endentry
+    \entry{Sorensen1999}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a061cb19c3b6349586bcc2469634095b}{%
+           family={Sørensen},
+           familyi={S\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Copenhagen Business School}%
+      }
+      \strng{namehash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{fullhash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{bibnamehash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{authorbibnamehash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{authornamehash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{authorfullhash}{a061cb19c3b6349586bcc2469634095b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Seasonality in Agricultural Commodity Futures}
+      \field{type}{techreport}
+      \field{year}{1999}
+    \endentry
+    \entry{stein1991}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=1e432a4cd42a48f08962229276035a77}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Elias\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=575642568e62a6731db350819c4f4dc2}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Jeremy\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{c765580395f218e7d8907304bb95ce35}
+      \strng{fullhash}{c765580395f218e7d8907304bb95ce35}
+      \strng{bibnamehash}{c765580395f218e7d8907304bb95ce35}
+      \strng{authorbibnamehash}{c765580395f218e7d8907304bb95ce35}
+      \strng{authornamehash}{c765580395f218e7d8907304bb95ce35}
+      \strng{authorfullhash}{c765580395f218e7d8907304bb95ce35}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Financial Studies}
+      \field{title}{Stock Price Distributions with Stochastic Volatility: An Analytic Approach}
+      \field{volume}{4}
+      \field{year}{1991}
+      \field{pages}{727\bibrangedash 752}
+      \range{pages}{26}
+      \verb{urlraw}
+      \verb http://rfs.oxfordjournals.org/
+      \endverb
+      \verb{url}
+      \verb http://rfs.oxfordjournals.org/
+      \endverb
+    \endentry
+    \entry{stein1989overreactions}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=b2a44527be23be23de6e11ad880ed98c}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{fullhash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{bibnamehash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{authorbibnamehash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{authornamehash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{authorfullhash}{b2a44527be23be23de6e11ad880ed98c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{month}{9}
+      \field{number}{4}
+      \field{title}{Overreactions in the Options Market}
+      \field{volume}{44}
+      \field{year}{1989}
+      \field{pages}{1011\bibrangedash 1023}
+      \range{pages}{13}
+    \endentry
+    \entry{theil1966}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=771e7098689435e037da0c98251a08cb}{%
+           family={Theil},
+           familyi={T\bibinitperiod},
+           given={Herman},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {North-Holland Publishing Company}%
+      }
+      \strng{namehash}{771e7098689435e037da0c98251a08cb}
+      \strng{fullhash}{771e7098689435e037da0c98251a08cb}
+      \strng{bibnamehash}{771e7098689435e037da0c98251a08cb}
+      \strng{authorbibnamehash}{771e7098689435e037da0c98251a08cb}
+      \strng{authornamehash}{771e7098689435e037da0c98251a08cb}
+      \strng{authorfullhash}{771e7098689435e037da0c98251a08cb}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Applied Economic Forecasting}
+      \field{year}{1966}
+    \endentry
+    \entry{wiki:OrnsteinUhlenbeckProcess}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 28-September-2024]}
+      \field{title}{Ornstein--Uhlenbeck process --- Wikipedia{,} The Free Encyclopedia}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process
+      \endverb
+    \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{abdelmessih2024volatility}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b6fc23cbe2ce5a26ff044699570953d}{%
+           family={Abdelmessih},
+           familyi={A\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{fullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{bibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authorbibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authornamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authorfullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MoonTower Meta}
+      \field{title}{Volatility Depends on the Resolution}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://moontowermeta.com/volatility-depends-on-the-resolution/
+      \endverb
+      \verb{url}
+      \verb https://moontowermeta.com/volatility-depends-on-the-resolution/
+      \endverb
+    \endentry
+    \entry{ammann2009implied}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6bbc9d876c6700d593692fe04ffb9b08}{%
+           family={Ammann},
+           familyi={A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9702c461f273c98ceab5f987905751e8}{%
+           family={Skovmand},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ada00a055cc8ad7c686acfb1a747c09b}{%
+           family={Verhofen},
+           familyi={V\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3eeec08c3cc8898e334dd68e1d8ab705}
+      \strng{fullhash}{11965ef02441fcdcfe923d920d8f6b33}
+      \strng{bibnamehash}{11965ef02441fcdcfe923d920d8f6b33}
+      \strng{authorbibnamehash}{11965ef02441fcdcfe923d920d8f6b33}
+      \strng{authornamehash}{3eeec08c3cc8898e334dd68e1d8ab705}
+      \strng{authorfullhash}{11965ef02441fcdcfe923d920d8f6b33}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Implied and Realized Volatility in the Cross-Section of Equity Options}
+      \field{year}{2009}
+    \endentry
+    \entry{Ayache2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d614819cafeeac16427326ef7b3a09bb}{%
+           family={Ayache},
+           familyi={A\bibinitperiod},
+           given={Elie},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{fullhash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{bibnamehash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{authorbibnamehash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{authornamehash}{d614819cafeeac16427326ef7b3a09bb}
+      \strng{authorfullhash}{d614819cafeeac16427326ef7b3a09bb}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wilmott Magazine}
+      \field{title}{What is Implied by Implied Volatility?}
+      \field{year}{2024}
+    \endentry
+    \entry{bennett2020trading}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=13dc30ad41361f952fb1596549c5df82}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{fullhash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{bibnamehash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{authorbibnamehash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{authornamehash}{13dc30ad41361f952fb1596549c5df82}
+      \strng{authorfullhash}{13dc30ad41361f952fb1596549c5df82}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Trading Volatility, Correlation, Term Structure and Skew}
+      \field{year}{2020}
+    \endentry
+    \entry{bennett2012measuring}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=13dc30ad41361f952fb1596549c5df82}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae2e089021871be1b81758a6d07fbe6d}{%
+           family={Gil},
+           familyi={G\bibinitperiod},
+           given={Miguel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Santander Investment Securities Inc.}%
+      }
+      \strng{namehash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{fullhash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{bibnamehash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{authorbibnamehash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{authornamehash}{af6be180f0d2106d265e18c6db7867ca}
+      \strng{authorfullhash}{af6be180f0d2106d265e18c6db7867ca}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{Accessed via internal research, Madrid}
+      \field{title}{Measuring Historical Volatility: Close-to-Close, Exponentially Weighted, Parkinson, Garman-Klass, Rogers-Satchell and Yang-Zhang Volatility}
+      \field{year}{2012}
+    \endentry
+    \entry{calibratingOuProcess}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=abbe72cb1982c69c77962230b9ee627b}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Thijs\bibnamedelimb Van\bibnamedelima Den},
+           giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{fullhash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{bibnamehash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{authorbibnamehash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{authornamehash}{abbe72cb1982c69c77962230b9ee627b}
+      \strng{authorfullhash}{abbe72cb1982c69c77962230b9ee627b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.statisticshowto.com/wp-content/uploads/2016/01/Calibrating-the-Ornstein.pdf}}
+      \field{note}{Accessed: 2024-09-28}
+      \field{title}{Calibrating the Ornstein-Uhlenbeck Process}
+      \field{year}{2011}
+    \endentry
+    \entry{black1973pricing}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=93277dfc1ebe8d44428e74799781e4d7}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Fischer},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=301bb16d9f303a488dac1c73931c0eff}{%
+           family={Scholes},
+           familyi={S\bibinitperiod},
+           given={Myron},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{fullhash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{bibnamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authorbibnamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authornamehash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \strng{authorfullhash}{0bcdbf94b820ddcda24f3e8d73d9a4ec}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{3}
+      \field{title}{The Pricing of Options and Corporate Liabilities}
+      \field{volume}{81}
+      \field{year}{1973}
+      \field{pages}{637\bibrangedash 654}
+      \range{pages}{18}
+    \endentry
+    \entry{bollerslev2017}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=39f8f5a428abd62057a0152546172106}{%
+           family={Bollerslev},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8091b394abd70bbfd51c13cbe9e0e7a}{%
+           family={Hood},
+           familyi={H\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94ea9cae2de2e792cf93ee45cf72e12b}{%
+           family={Huss},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07123ce41f03a63251aed38e35aa6029}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Lasse\bibnamedelima Heje},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b250c826403737aaca16b70d855ba175}
+      \strng{fullhash}{d12f16b6628e3767dc1068fe8969f32b}
+      \strng{bibnamehash}{d12f16b6628e3767dc1068fe8969f32b}
+      \strng{authorbibnamehash}{d12f16b6628e3767dc1068fe8969f32b}
+      \strng{authornamehash}{b250c826403737aaca16b70d855ba175}
+      \strng{authorfullhash}{d12f16b6628e3767dc1068fe8969f32b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{note}{Available at SSRN: \url{https://ssrn.com/abstract=2722591} or \url{http://dx.doi.org/10.2139/ssrn.2722591}}
+      \field{title}{Risk Everywhere: Modeling and Managing Volatility}
+      \field{year}{2017}
+    \endentry
+    \entry{canina1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e21d2bba2641953e4507bcab046fbc48}{%
+           family={Canina},
+           familyi={C\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba9e7bf96e3d094f2ef4b89ff89bd3dd}{%
+           family={Figlewski},
+           familyi={F\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Oxford University Press, Society for Financial Studies]}%
+      }
+      \strng{namehash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{fullhash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{bibnamehash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{authorbibnamehash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{authornamehash}{2d239c403b25dd85c04f96f9506f0252}
+      \strng{authorfullhash}{2d239c403b25dd85c04f96f9506f0252}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Implied volatility is widely believed to be informationally superior to historical volatility, because it is the "market's" forecast of future volatility...}
+      \field{issn}{0893-9454, 1465-7368}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{number}{3}
+      \field{title}{The Informational Content of Implied Volatility}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{659\bibrangedash 681}
+      \range{pages}{23}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2961982
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2961982
+      \endverb
+    \endentry
+    \entry{cantaroOuProcess}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=77cd639f916ecd5ca8afc974cfa9af73}{%
+           family={Cantarutti},
+           familyi={C\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{fullhash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{bibnamehash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{authorbibnamehash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{authornamehash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \strng{authorfullhash}{77cd639f916ecd5ca8afc974cfa9af73}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-09-28}
+      \field{title}{Ornstein-Uhlenbeck Process and Applications}
+      \field{year}{2020}
+    \endentry
+    \entry{Cohen1996}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8eafcfd530dadafbcb01bd4f544e0f84}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Benjamin\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Bank for International Settlements}%
+      }
+      \strng{namehash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{fullhash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{bibnamehash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{authorbibnamehash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{authornamehash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \strng{authorfullhash}{8eafcfd530dadafbcb01bd4f544e0f84}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Derivatives and Asset Price Volatility: A Test Using Variance Ratios}
+      \field{type}{Working Paper}
+      \field{year}{1996}
+    \endentry
+    \entry{cont2005volatility}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4adbb1a85104895dfcc25d4e2cac8cce}{%
+           family={Cont},
+           familyi={C\bibinitperiod},
+           given={Rama},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=220b1a437ccc1f958c858ae3f466b0f0}{%
+           family={Kirman},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=24f3ccc14a528a2dc4f4efa80ae802d5}{%
+           family={Teyssière},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Centre de Mathématiques appliquées, Ecole Polytechnique}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{fullhash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{bibnamehash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{authorbibnamehash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{authornamehash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{authorfullhash}{4adbb1a85104895dfcc25d4e2cac8cce}
+      \strng{editorbibnamehash}{57a379e6f363e8063c12ea174e4edf6f}
+      \strng{editornamehash}{57a379e6f363e8063c12ea174e4edf6f}
+      \strng{editorfullhash}{57a379e6f363e8063c12ea174e4edf6f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Long Memory in Economics}
+      \field{note}{To appear}
+      \field{title}{Volatility Clustering in Financial Markets: Empirical Facts and Agent-Based Models}
+      \field{year}{2005}
+      \field{pages}{289\bibrangedash 309}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb https://www.polytechnique.edu
+      \endverb
+      \verb{url}
+      \verb https://www.polytechnique.edu
+      \endverb
+    \endentry
     \entry{Corsi2005}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=129c77b46135add6df324fff12fb9b28}{%
@@ -88,6 +1267,307 @@
       \field{title}{Measuring and Modelling Realized Volatility: From Tick-by-Tick to Long Memory}
       \field{type}{PhD dissertation}
       \field{year}{2005}
+    \endentry
+    \entry{derman1999}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78e836e64f0f5750ed7ada3929d1f0f5}{%
+           family={Derman},
+           familyi={D\bibinitperiod},
+           given={Emanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Goldman Sachs}%
+      }
+      \strng{namehash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{fullhash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{bibnamehash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{authorbibnamehash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{authornamehash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \strng{authorfullhash}{78e836e64f0f5750ed7ada3929d1f0f5}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Regimes of Volatility: Some Observations on the Variation of S\&P 500 Implied Volatilities}
+      \field{type}{techreport}
+      \field{year}{1999}
+    \endentry
+    \entry{liu2012comparison}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fb9b4a8ae692d9b34a218438c28826f8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Lily},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4a103d050a59b8cf50ce433a3cc51ec}{%
+           family={Patton},
+           familyi={P\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22fcbc93c38819e962968aad3e3cba7f}{%
+           family={Sheppard},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {Duke University}%
+        {University of Oxford}%
+      }
+      \strng{namehash}{76d99abd7c1edcfefd24638db07d9c17}
+      \strng{fullhash}{34dfbcd75cde9eae537b839c5d45eab0}
+      \strng{bibnamehash}{34dfbcd75cde9eae537b839c5d45eab0}
+      \strng{authorbibnamehash}{34dfbcd75cde9eae537b839c5d45eab0}
+      \strng{authornamehash}{76d99abd7c1edcfefd24638db07d9c17}
+      \strng{authorfullhash}{34dfbcd75cde9eae537b839c5d45eab0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{December 5, 2012}
+      \field{title}{Does Anything Beat 5-Minute RV? A Comparison of Realized Measures Across Multiple Asset Classes}
+      \field{year}{2012}
+    \endentry
+    \entry{mandelbrot1963variation}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d1efa9919078b1d84e99492d760dcc14}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={Benoit\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{fullhash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{bibnamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authorbibnamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authornamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authorfullhash}{d1efa9919078b1d84e99492d760dcc14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business}
+      \field{number}{4}
+      \field{title}{The Variation of Certain Speculative Prices}
+      \field{volume}{36}
+      \field{year}{1963}
+      \field{pages}{392\bibrangedash 417}
+      \range{pages}{26}
+    \endentry
+    \entry{mayhew1995implied}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3afd31c613a1c37d9a5e8c9327d994f7}{%
+           family={Mayhew},
+           familyi={M\bibinitperiod},
+           given={Stewart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CFA Institute}%
+      }
+      \strng{namehash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{fullhash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{bibnamehash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{authorbibnamehash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{authornamehash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \strng{authorfullhash}{3afd31c613a1c37d9a5e8c9327d994f7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Analysts Journal}
+      \field{number}{4}
+      \field{title}{Implied Volatility}
+      \field{volume}{51}
+      \field{year}{1995}
+      \field{pages}{8\bibrangedash 20}
+      \range{pages}{13}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/4479853
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/4479853
+      \endverb
+    \endentry
+    \entry{Sorensen1999}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a061cb19c3b6349586bcc2469634095b}{%
+           family={Sørensen},
+           familyi={S\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Copenhagen Business School}%
+      }
+      \strng{namehash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{fullhash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{bibnamehash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{authorbibnamehash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{authornamehash}{a061cb19c3b6349586bcc2469634095b}
+      \strng{authorfullhash}{a061cb19c3b6349586bcc2469634095b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Seasonality in Agricultural Commodity Futures}
+      \field{type}{techreport}
+      \field{year}{1999}
+    \endentry
+    \entry{stein1991}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=1e432a4cd42a48f08962229276035a77}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Elias\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=575642568e62a6731db350819c4f4dc2}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Jeremy\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{c765580395f218e7d8907304bb95ce35}
+      \strng{fullhash}{c765580395f218e7d8907304bb95ce35}
+      \strng{bibnamehash}{c765580395f218e7d8907304bb95ce35}
+      \strng{authorbibnamehash}{c765580395f218e7d8907304bb95ce35}
+      \strng{authornamehash}{c765580395f218e7d8907304bb95ce35}
+      \strng{authorfullhash}{c765580395f218e7d8907304bb95ce35}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Financial Studies}
+      \field{title}{Stock Price Distributions with Stochastic Volatility: An Analytic Approach}
+      \field{volume}{4}
+      \field{year}{1991}
+      \field{pages}{727\bibrangedash 752}
+      \range{pages}{26}
+      \verb{urlraw}
+      \verb http://rfs.oxfordjournals.org/
+      \endverb
+      \verb{url}
+      \verb http://rfs.oxfordjournals.org/
+      \endverb
+    \endentry
+    \entry{stein1989overreactions}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=b2a44527be23be23de6e11ad880ed98c}{%
+           family={Stein},
+           familyi={S\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{fullhash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{bibnamehash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{authorbibnamehash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{authornamehash}{b2a44527be23be23de6e11ad880ed98c}
+      \strng{authorfullhash}{b2a44527be23be23de6e11ad880ed98c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{month}{9}
+      \field{number}{4}
+      \field{title}{Overreactions in the Options Market}
+      \field{volume}{44}
+      \field{year}{1989}
+      \field{pages}{1011\bibrangedash 1023}
+      \range{pages}{13}
+    \endentry
+    \entry{theil1966}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=771e7098689435e037da0c98251a08cb}{%
+           family={Theil},
+           familyi={T\bibinitperiod},
+           given={Herman},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {North-Holland Publishing Company}%
+      }
+      \strng{namehash}{771e7098689435e037da0c98251a08cb}
+      \strng{fullhash}{771e7098689435e037da0c98251a08cb}
+      \strng{bibnamehash}{771e7098689435e037da0c98251a08cb}
+      \strng{authorbibnamehash}{771e7098689435e037da0c98251a08cb}
+      \strng{authornamehash}{771e7098689435e037da0c98251a08cb}
+      \strng{authorfullhash}{771e7098689435e037da0c98251a08cb}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Applied Economic Forecasting}
+      \field{year}{1966}
+    \endentry
+    \entry{wiki:OrnsteinUhlenbeckProcess}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 28-September-2024]}
+      \field{title}{Ornstein--Uhlenbeck process --- Wikipedia{,} The Free Encyclopedia}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

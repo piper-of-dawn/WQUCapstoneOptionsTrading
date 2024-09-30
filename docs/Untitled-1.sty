@@ -1,0 +1,23 @@
+Long Term Mean:
+
+$$
+\theta=\frac{S_y S_{x x}-S_x S_{x y}}{n\left(S_{x x}-S_{x y}\right)-\left(S_x^2-S_x S_y\right)}
+$$
+
+Mean Reversion Rate:
+
+$$
+\kappa=-\frac{1}{T} \ln \frac{S_{x y}-\theta S_x-\theta S_y+n \theta^2}{S_{x x}-2 \theta S_x+n \theta^2}
+$$
+
+Variance:
+
+$$
+\begin{aligned}
+\hat{\sigma}^2= & \frac{1}{n}\left[S_{y y}-2 \alpha S_{x y}+\alpha^2 S_{x x}\right. \\
+& \left.-2 \theta(1-\alpha)\left(S_y-\alpha S_x\right)+n \theta^2(1-\alpha)^2\right] \\
+\sigma^2= & \hat{\sigma}^2 \frac{2 \kappa}{1-\alpha^2}
+\end{aligned}
+$$
+
+with $\alpha=e^{-\kappa T}$

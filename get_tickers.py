@@ -6,6 +6,7 @@ import polars as pl
 import os
 from tqdm import tqdm
 from functools import reduce
+import concurrent.futures
 
 async def get_expirations (session, ticker):
     print(f"Fetching expirations for {ticker}...")

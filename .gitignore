@@ -4,4 +4,17 @@ ThetaTerminal
 Natenberg - Chapter 4 and 5.pdf
 trash.md
 __pycache__/
-.ipynb_checkpoints/``
+.ipynb_checkpoints/
+*.log
+6.1 Ornstein-Uhlenbeck process and applications.ipynb
+2022-03-08 Trading stock volatility with the Ornstein-Uhlenbeck process.ipynb
+2022-11-21 Historical vs Implied Volatility with 10yrs Options Data!.ipynb
+2023-06-13 Inferring the Aggressor using Options Data.ipynb
+api_cache/
+.vscode/
+logs/
+playground.ipynb
+realized_volatility.ipynb
+trash/
+MS Thesis/
+completed_tickers.txt

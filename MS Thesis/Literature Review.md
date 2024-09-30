@@ -1,9 +1,26 @@
 The implied volatility in context of Black Scholes model of option pricing is obtained by inverting the Black Scholes formula against the observed market price of that option. The implied volatility refers to the Brownian diffusion coefficient inherent in the Black Scholes theory. \cite{Ayache2024}
 
+The measurement of realized volatility is a deceivingly non trivial subject of study because of several nuances involved. \cite{abdelmessih2024volatility} is an interesting read. He analyses how the measurement of realized volatility is dependent upon the sampling period. He presents a key idea that the more frequently you sample volatility, the faster you converge on a better estimate of volatility.   \cite{bennett2012measuring} study the following methods to calculate the realised volatility from the aggregated price data:
+- Close-to-Close (C)
+- Exponentially Weighted (C)
+- Parkinson (HL)
+- Garman-Klass (OHLC)
+- Rogers-Satchell (OHLC)
+- Yang-Zhang (OHLC)
+ \cite{Corsi2005} describe can be constructed from high frequency data. 
+
+\cite{liu2012} claim that it is significantly challenging to beat the 5-minute realized volatility estimate by other measures of volatility. For this they create multiple volatility measures and benchmark them against 5 minute realized volatility through various statistical approaches. On the basis, of this study I propose to compute the realized volatility using 5-minute calendar time. 
+
+The empirical relationship between the implied and the realized volatility has been the subject of intense study. In the book, "Trading Volatility, Correlation, Term Structure and Skew" \cite{bennett2020trading}, the author observes the idea of a volatility cone that exhibits:
+- The average implied volatility is slightly above the average realized volatility.
+- The implied volatility is also less volatile than realized volatility for near dated maturities .
+ 
 \cite{Cohen1996} study the impact of derivatives on the underlying asset markets using the Variance Ratio Tests.  They take the ratio of the variance of the daily log price changes with the variance of the multiday log price changes. The focus of their study is the long term government bonds yields for Germany, US and Japan and the equity price indices for US and Germany. The variance ratio test serves as a powerful tool for examining the momentum and the mean reversion of the volatility and could be instrumental in devising trading strategies in the options market.
 
 The closest paper that studies the relationship between the implied and the realized volatility is \cite{ammann2009implied} for a time period of 1996 to 2006. They use the historical 91-day volatility and a second characteristic: beta, market value, market-to-book ratio, or momentum to construct 5 $\times$ 5 grid of portfolios, i.e. each dimension is divided into 5 quantiles. They discovered high-beta stocks, small stocks, stocks with low market-to-book ratios, and non-momentum have a higher implied volatility after controlling for the historical volatility. Whereas for low beta stocks, small caps, low market-to-book ratio and no momentum stocks, the implied volatility overestimates the realized volatility.  An interesting finding is that they cannot reject the null hypothesis that the implied volatility is an unbiased predictor of the realized volatility.
 
-\cite{liu2012} describe the number of ways asset price variability can be constructed.  
-
 \cite{\canina1993} is an interesting study. They use the forecast rationality test introduced by \cite{theil1966} to test the bias and efficiency of using implied volatility to forecast the realised volatility. They find that the implied volatility is a poor forecast of subsequent realised volatility for S&P 100 index options. 
+
+An interesting study by \cite{bollerslev2017} examines the sampling distribution of standard deviation across asset classes such as equities, fixed income, commodities and FX. They find that the unconditional daily realised volatility distribution for these asset classes is statistically identical when normalised by the sample mean. This leads to the interesting question of spillover effects of volatility across different asset classes. This sets the stage for a similar study that one could perform to examine the multivariate distribution of implied and realised volatility across asset classes.  
+
+\cite{derman1999} studies of volatility in the S&P 500 index options post the crash of 1987.  The paper extensively studies the skewness of the implied volatility. An **implied volatility skew** refers to the pattern of how implied volatility (IV) varies across options with the same expiration date but different strike prices (\cite{derman1999}). They discover the following stylized facts. Firstly, the volatility skew has a roughly linear relationship with a strike distance from the spot price.  Secondly, at-the-money implied volatilities are negatively correlated with the index. Thirdly, Fixed strike implied volatility shows a richer structure. Fourthly, the volatility skew is always negative. Fifthly, the skew widened after the October 1997 market drop and then expanded even more after the decline of August 1998. 

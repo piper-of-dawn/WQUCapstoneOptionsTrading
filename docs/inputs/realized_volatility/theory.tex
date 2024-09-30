@@ -1,0 +1,120 @@
+The Ornstein–Uhlenbeck process (\cite{wiki:OrnsteinUhlenbeckProcess}) is described by the following stochastic differential equation:$$ dX_t = \kappa (\theta - X_t) dt + \sigma dW_t .$$
+$X_t$ is the volatility process which is described by the following parameters:
+
+\begin{itemize}
+	\item $\kappa$ is the rate of the mean reversion of the process. In this paper, we refer to this as \textbf{'mean reversion'}.
+	\item $\theta$ is the long term mean of the process. In this paper, we refer to this as \textbf{'ambient volatility'}.
+	\item $\sigma$ is the volatility of the volatility.  In this paper, we refer to this as \textbf{'meta volatilit}y'.
+	\item $W_t$ is the Wiener process.
+	\item $dt$ is the time step of the process
+\end{itemize}
+
+This process is Gaussian because it is a linear combination of a Wiener process. It is Markovian because the future values of the process future state depends only on the current state. It is unconditionally stationary because the joint distribution of the process is invariant to time.  \cite{cantaroOuProcess}.
+
+We can rearrange terms in the SDE as:
+
+$$
+\begin{aligned}
+    dX_t &= \kappa (\theta - X_t) dt + \sigma dW_t \\
+    &= \kappa \theta dt -\kappa X_t dt+\sigma dW_t \\        
+    dX_t + \kappa X_t dt &= \kappa \theta dt + \sigma dW_t  
+    \end{aligned}
+$$
+
+We can use the Itô formula:
+
+$$
+d( X_t \, e^{\kappa t} ) = \kappa \, X_t\, e^{\kappa t}\, dt + e^{\kappa t}\, dX_t
+$$
+
+Now we take Riemann integral over time horizon $t \in [0,T]$:
+
+$$ 
+\int^T_0 d(e^{\kappa t} X_t) = \int^T_0 \kappa \theta e^{\kappa t} dt + \int^T_0 \sigma e^{\kappa t} dW_t 
+$$
+
+which results in:
+
+$$ 
+e^{\kappa T} X_T - X_0 = \kappa \theta \frac{e^{\kappa T}-1}{\kappa} + \sigma \int^T_0 e^{\kappa t} dW_t
+$$
+
+Now we can solve for $X_T$:
+
+$$ 
+X_T = \theta + e^{-\kappa T} (X_0 - \theta) + \sigma \int^T_0 e^{-\kappa (T-t)} dW_t
+$$
+
+\subsubsection{Moments}
+
+The expectation of $X_t$ is:
+
+$$
+\begin{aligned}
+	\mathbf{E}\left[X_T\right] &= \mathbf{E}\left[\theta + e^{-\kappa T} (X_0 - \theta) + \sigma \int^T_0 e^{-\kappa (T-t)} dW_t\right] \\	
+    &= \theta + \left(X_0 - \theta\right) e^{-\kappa T} 
+\end{aligned}
+$$
+
+The variance of $X_t$ is:
+
+$$
+	\begin{aligned}
+		Var[X_T] &= E[(X_T- E[X_T])^2] 
+	\end{aligned}
+$$
+
+Substitute in $X_T$ and $E[X_T]$ derived above.
+
+$$
+	\begin{aligned}
+		Var(X_T) &= E[(\sigma \int^T_0 e^{-\kappa (T-t)} dW_t)^2] \\
+        &= \sigma^2 \frac{1-e^{-2\kappa T}}{2 \kappa} \\
+        &= \frac{\sigma^2}{2 \kappa}(1-e^{-2\kappa T})
+	\end{aligned}
+$$
+
+The derivation above uses Ito's Lemma,  where only term left after we cross multiply $dWdW$ is $dt$.
+
+As $t\to \infty$ we obtain the **asymptotic mean** $\theta$ and the **asymptotic variance** $\sigma^2/2\kappa$.
+
+\subsubsection{ Estimation of Parameters  from a Single Path through Maximum Likelihood }
+
+Ito processes are martingale under a risk neutral measure. The following derivation is taken from \cite{calibratingOuProcess}. [\textit{I will put the full derivation in appendix later on}] \\
+
+Using the following notations:
+
+$$
+	\begin{aligned}
+		S_x &= \sum_{i=1}^n X_{i-1} \\
+		S_y &= \sum_{i=1}^n X_{i} \\
+		S_{xx} &= \sum_{i=1}^n X_{i-1}^2 \\
+		S_{xy} &= \sum_{i=1}^n X_{i-1}X_{i} \\
+		S_{yy} &= \sum_{i=1}^n X_{i}^2
+	\end{aligned}
+$$
+The MLE parameters for the process are given as.  \\
+
+\textbf{Long Term Mean:}
+
+$$
+	\theta=\frac{S_y S_{x x}-S_x S_{x y}}{n\left(S_{x x}-S_{x y}\right)-\left(S_x^2-S_x S_y\right)}
+$$
+
+\textbf{Mean Reversion Rate:}
+
+$$
+	\kappa=-\frac{1}{T} \ln \frac{S_{x y}-\theta S_x-\theta S_y+n \theta^2}{S_{x x}-2 \theta S_x+n \theta^2}
+$$
+
+\textbf{Variance:}
+
+$$
+\begin{aligned}
+    \hat{\sigma}^2= & \frac{1}{n}\left[S_{y y}-2 \alpha S_{x y}+\alpha^2 S_{x x}\right] \\    
+    & \left[-2 \theta(1-\alpha)\left(S_y-\alpha S_x\right)+n \theta^2(1-\alpha)^2\right] \\    
+    \sigma^2= & \hat{\sigma}^2 \frac{2 \kappa}{1-\alpha^2}    
+    \end{aligned}  
+$$
+
+with $\alpha=e^{-\kappa T}$
