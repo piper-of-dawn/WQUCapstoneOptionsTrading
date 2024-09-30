@@ -6,10 +6,14 @@
 ## FAQ
 
 #### Where will I get the data?
-The data is is in Gigabytes and I cannot put it on Git. It is hosted publically on my Google Drive. The shell script setup_everything.sh would do this automatically for you. If for some reason it does not work, you can download the data from the following link:
+The data is is in Gigabytes and I cannot put it on Git. It is hosted publically on my Google Drive. 
 
+LINK: https://drive.google.com/file/d/1n4KeK6EylbFXEB41mc9ksfm_up9dED-P/view?usp=sharing
 
-Make sure the data is stored in a folder called DATA in the root directory of the project.
+Make sure the data is stored in a folder called DATA (all capitals) in the root directory of the project.
 
 #### What libraries do I need to install?
-Everything is in setup_everything.sh
+
+pip install numpy plotly polars tqdm matplotlib scipy
+
+
