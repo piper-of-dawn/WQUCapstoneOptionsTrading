@@ -19,6 +19,39 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{abdelmessih2020lessons}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b6fc23cbe2ce5a26ff044699570953d}{%
+           family={Abdelmessih},
+           familyi={A\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{fullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{bibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authorbibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authornamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authorfullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-10-21}
+      \field{title}{Lessons From The 50 Delta Option}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://moontowermeta.com/lessons-from-the-50-delta-option/
+      \endverb
+      \verb{url}
+      \verb https://moontowermeta.com/lessons-from-the-50-delta-option/
+      \endverb
+    \endentry
     \entry{abdelmessih2024volatility}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1b6fc23cbe2ce5a26ff044699570953d}{%
@@ -34,6 +67,7 @@
       \strng{authorbibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
       \strng{authornamehash}{1b6fc23cbe2ce5a26ff044699570953d}
       \strng{authorfullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -492,6 +526,44 @@
       \field{type}{PhD dissertation}
       \field{year}{2005}
     \endentry
+    \entry{das1998smiles}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2fe818d2ca756f8bafaac95ad246a84f}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Sanjiv\bibnamedelima Ranjan},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d336f92f97d9634ee474cf8debb80b4}{%
+           family={Sundaram},
+           familyi={S\bibinitperiod},
+           given={Rangarajan\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Harvard Business School, Harvard University, Stern School of Business, New York University}%
+      }
+      \list{location}{1}{%
+        {Boston, MA 02163, New York, NY 10012}%
+      }
+      \strng{namehash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{fullhash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{bibnamehash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{authorbibnamehash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{authornamehash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{authorfullhash}{e73fc903c608313de6ac90a2c2200482}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Unpublished manuscript}
+      \field{title}{Of Smiles and Smirks: A Term-Structure Perspective}
+      \field{year}{1998}
+    \endentry
     \entry{derman1999}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=78e836e64f0f5750ed7ada3929d1f0f5}{%
@@ -521,6 +593,33 @@
       \field{title}{Regimes of Volatility: Some Observations on the Variation of S\&P 500 Implied Volatilities}
       \field{type}{techreport}
       \field{year}{1999}
+    \endentry
+    \entry{RateLab2008}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc262d6b145695f0c792d91b13ae650b}{%
+           family={Desk},
+           familyi={D\bibinitperiod},
+           given={Merrill\bibnamedelimb Lynch\bibnamedelimb U.S.\bibnamedelimi Rates\bibnamedelima Trading},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{fullhash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{bibnamehash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{authorbibnamehash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{authornamehash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{authorfullhash}{bc262d6b145695f0c792d91b13ae650b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{RateLab is prepared by the U.S. Rates trading desk; it is not a product of Merrill Lynch Research.}
+      \field{title}{Implied Volatility: A Measurement of Fear}
+      \field{year}{2008}
     \endentry
     \entry{liu2012comparison}{article}{}
       \name{author}{3}{}{%
@@ -635,6 +734,34 @@
       \verb{url}
       \verb http://www.jstor.org/stable/4479853
       \endverb
+    \endentry
+    \entry{mixon2011volatility}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c50c612abb1df10341fa55c9c348bae}{%
+           family={Mixon},
+           familyi={M\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{fullhash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{bibnamehash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{authorbibnamehash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{authornamehash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{authorfullhash}{6c50c612abb1df10341fa55c9c348bae}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Derivatives}
+      \field{number}{4}
+      \field{title}{What Does Implied Volatility Skew Measure?}
+      \field{volume}{17}
+      \field{year}{2011}
     \endentry
     \entry{Sorensen1999}{report}{}
       \name{author}{1}{}{%
@@ -795,6 +922,39 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{abdelmessih2020lessons}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1b6fc23cbe2ce5a26ff044699570953d}{%
+           family={Abdelmessih},
+           familyi={A\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{fullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{bibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authorbibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authornamehash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \strng{authorfullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-10-21}
+      \field{title}{Lessons From The 50 Delta Option}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://moontowermeta.com/lessons-from-the-50-delta-option/
+      \endverb
+      \verb{url}
+      \verb https://moontowermeta.com/lessons-from-the-50-delta-option/
+      \endverb
+    \endentry
     \entry{abdelmessih2024volatility}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1b6fc23cbe2ce5a26ff044699570953d}{%
@@ -810,6 +970,7 @@
       \strng{authorbibnamehash}{1b6fc23cbe2ce5a26ff044699570953d}
       \strng{authornamehash}{1b6fc23cbe2ce5a26ff044699570953d}
       \strng{authorfullhash}{1b6fc23cbe2ce5a26ff044699570953d}
+      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -1268,6 +1429,44 @@
       \field{type}{PhD dissertation}
       \field{year}{2005}
     \endentry
+    \entry{das1998smiles}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2fe818d2ca756f8bafaac95ad246a84f}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Sanjiv\bibnamedelima Ranjan},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d336f92f97d9634ee474cf8debb80b4}{%
+           family={Sundaram},
+           familyi={S\bibinitperiod},
+           given={Rangarajan\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Harvard Business School, Harvard University, Stern School of Business, New York University}%
+      }
+      \list{location}{1}{%
+        {Boston, MA 02163, New York, NY 10012}%
+      }
+      \strng{namehash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{fullhash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{bibnamehash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{authorbibnamehash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{authornamehash}{e73fc903c608313de6ac90a2c2200482}
+      \strng{authorfullhash}{e73fc903c608313de6ac90a2c2200482}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Unpublished manuscript}
+      \field{title}{Of Smiles and Smirks: A Term-Structure Perspective}
+      \field{year}{1998}
+    \endentry
     \entry{derman1999}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=78e836e64f0f5750ed7ada3929d1f0f5}{%
@@ -1297,6 +1496,33 @@
       \field{title}{Regimes of Volatility: Some Observations on the Variation of S\&P 500 Implied Volatilities}
       \field{type}{techreport}
       \field{year}{1999}
+    \endentry
+    \entry{RateLab2008}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bc262d6b145695f0c792d91b13ae650b}{%
+           family={Desk},
+           familyi={D\bibinitperiod},
+           given={Merrill\bibnamedelimb Lynch\bibnamedelimb U.S.\bibnamedelimi Rates\bibnamedelima Trading},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{fullhash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{bibnamehash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{authorbibnamehash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{authornamehash}{bc262d6b145695f0c792d91b13ae650b}
+      \strng{authorfullhash}{bc262d6b145695f0c792d91b13ae650b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{RateLab is prepared by the U.S. Rates trading desk; it is not a product of Merrill Lynch Research.}
+      \field{title}{Implied Volatility: A Measurement of Fear}
+      \field{year}{2008}
     \endentry
     \entry{liu2012comparison}{article}{}
       \name{author}{3}{}{%
@@ -1411,6 +1637,34 @@
       \verb{url}
       \verb http://www.jstor.org/stable/4479853
       \endverb
+    \endentry
+    \entry{mixon2011volatility}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c50c612abb1df10341fa55c9c348bae}{%
+           family={Mixon},
+           familyi={M\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{fullhash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{bibnamehash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{authorbibnamehash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{authornamehash}{6c50c612abb1df10341fa55c9c348bae}
+      \strng{authorfullhash}{6c50c612abb1df10341fa55c9c348bae}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Derivatives}
+      \field{number}{4}
+      \field{title}{What Does Implied Volatility Skew Measure?}
+      \field{volume}{17}
+      \field{year}{2011}
     \endentry
     \entry{Sorensen1999}{report}{}
       \name{author}{1}{}{%

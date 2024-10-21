@@ -541,6 +541,17 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\csquotes\csquotes.sty
@@ -616,6 +627,17 @@ INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\adjustbox\adjustbox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\adjustbox\adjustbox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\adjustbox\adjustbox.sty
@@ -879,6 +901,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT .\main.aux
 INPUT main.aux
 INPUT main.aux
+INPUT .\title.aux
+INPUT title.aux
+INPUT title.aux
 OUTPUT main.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -946,8 +971,13 @@ OUTPUT main.pdf
 INPUT C:\Users\kumar\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-OUTPUT main.toc
+INPUT .\main.toc
+INPUT main.toc
+INPUT main.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+OUTPUT main.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\inputs\literature_review.tex
 INPUT .\inputs\literature_review.tex
@@ -957,3 +987,257 @@ INPUT .\inputs\literature_review.tex
 INPUT .\inputs\literature_review.tex
 INPUT inputs\literature_review.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT .\inputs\realized_volatility.tex
+INPUT .\inputs\realized_volatility.tex
+INPUT .\inputs\realized_volatility.tex
+INPUT inputs\realized_volatility.tex
+INPUT .\inputs\realized_volatility.tex
+INPUT .\inputs\realized_volatility.tex
+INPUT inputs\realized_volatility.tex
+INPUT .\inputs\realized_volatility\introduction.tex
+INPUT inputs\realized_volatility\introduction.tex
+INPUT .\inputs\realized_volatility\introduction.tex
+INPUT inputs\realized_volatility\introduction.tex
+INPUT .\inputs\realized_volatility\theory.tex
+INPUT inputs\realized_volatility\theory.tex
+INPUT .\inputs\realized_volatility\theory.tex
+INPUT inputs\realized_volatility\theory.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+INPUT .\inputs\realized_volatility\empirics.tex
+INPUT inputs\realized_volatility\empirics.tex
+INPUT .\inputs\realized_volatility\empirics.tex
+INPUT inputs\realized_volatility\empirics.tex
+INPUT .\images\ambient_volatility_by_category.png
+INPUT .\images\ambient_volatility_by_category.png
+INPUT images\ambient_volatility_by_category.png
+INPUT .\images\ambient_volatility_by_category.png
+INPUT .\images\ambient_volatility_by_category.png
+INPUT .\images\ambient_volatility_by_category.png
+INPUT .\images\ambient_volatility_by_category.png
+INPUT .\images\mean_reversion_by_category.png
+INPUT .\images\mean_reversion_by_category.png
+INPUT images\mean_reversion_by_category.png
+INPUT .\images\mean_reversion_by_category.png
+INPUT .\images\mean_reversion_by_category.png
+INPUT .\images\mean_reversion_by_category.png
+INPUT .\images\mean_reversion_by_category.png
+INPUT .\images\volatility_paths.png
+INPUT .\images\volatility_paths.png
+INPUT images\volatility_paths.png
+INPUT .\images\volatility_paths.png
+INPUT .\images\volatility_paths.png
+INPUT .\images\volatility_paths.png
+INPUT .\images\volatility_paths.png
+INPUT .\images\time_to_theta.png
+INPUT .\images\time_to_theta.png
+INPUT images\time_to_theta.png
+INPUT .\images\time_to_theta.png
+INPUT .\images\time_to_theta.png
+INPUT .\images\time_to_theta.png
+INPUT .\images\time_to_theta.png
+INPUT .\images\ambient_volatility_vs_mean_reversion.png
+INPUT .\images\ambient_volatility_vs_mean_reversion.png
+INPUT images\ambient_volatility_vs_mean_reversion.png
+INPUT .\images\ambient_volatility_vs_mean_reversion.png
+INPUT .\images\ambient_volatility_vs_mean_reversion.png
+INPUT .\images\ambient_volatility_vs_mean_reversion.png
+INPUT .\images\ambient_volatility_vs_mean_reversion.png
+INPUT .\images\meta_volatility_by_category.png
+INPUT .\images\meta_volatility_by_category.png
+INPUT images\meta_volatility_by_category.png
+INPUT .\images\meta_volatility_by_category.png
+INPUT .\images\meta_volatility_by_category.png
+INPUT .\images\meta_volatility_by_category.png
+INPUT .\images\meta_volatility_by_category.png
+INPUT .\images\meta_volatility_vs_ambient_volatility.png
+INPUT .\images\meta_volatility_vs_ambient_volatility.png
+INPUT images\meta_volatility_vs_ambient_volatility.png
+INPUT .\images\meta_volatility_vs_ambient_volatility.png
+INPUT .\images\meta_volatility_vs_ambient_volatility.png
+INPUT .\images\meta_volatility_vs_ambient_volatility.png
+INPUT .\images\meta_volatility_vs_ambient_volatility.png
+INPUT .\images\meta_volatility_vs_mean_reversion.png
+INPUT .\images\meta_volatility_vs_mean_reversion.png
+INPUT images\meta_volatility_vs_mean_reversion.png
+INPUT .\images\meta_volatility_vs_mean_reversion.png
+INPUT .\images\meta_volatility_vs_mean_reversion.png
+INPUT .\images\meta_volatility_vs_mean_reversion.png
+INPUT .\images\meta_volatility_vs_mean_reversion.png
+INPUT .\inputs\vrp_and_skew\options_and_volatility.tex
+INPUT .\inputs\vrp_and_skew\options_and_volatility.tex
+INPUT .\inputs\vrp_and_skew\options_and_volatility.tex
+INPUT inputs\vrp_and_skew\options_and_volatility.tex
+INPUT .\inputs\vrp_and_skew\options_and_volatility.tex
+INPUT .\inputs\vrp_and_skew\options_and_volatility.tex
+INPUT inputs\vrp_and_skew\options_and_volatility.tex
+INPUT .\inputs\vrp_and_skew\assumptions.tex
+INPUT .\inputs\vrp_and_skew\assumptions.tex
+INPUT .\inputs\vrp_and_skew\assumptions.tex
+INPUT inputs\vrp_and_skew\assumptions.tex
+INPUT .\inputs\vrp_and_skew\assumptions.tex
+INPUT .\inputs\vrp_and_skew\assumptions.tex
+INPUT inputs\vrp_and_skew\assumptions.tex
+INPUT .\images\ticker_color_code.png
+INPUT .\images\ticker_color_code.png
+INPUT images\ticker_color_code.png
+INPUT .\images\ticker_color_code.png
+INPUT .\images\ticker_color_code.png
+INPUT .\images\ticker_color_code.png
+INPUT .\images\ticker_color_code.png
+INPUT .\inputs\vrp_and_skew\iv_and_rv.tex
+INPUT .\inputs\vrp_and_skew\iv_and_rv.tex
+INPUT .\inputs\vrp_and_skew\iv_and_rv.tex
+INPUT inputs\vrp_and_skew\iv_and_rv.tex
+INPUT .\inputs\vrp_and_skew\iv_and_rv.tex
+INPUT .\inputs\vrp_and_skew\iv_and_rv.tex
+INPUT inputs\vrp_and_skew\iv_and_rv.tex
+INPUT .\images\iv_and_rv_batch1.png
+INPUT .\images\iv_and_rv_batch1.png
+INPUT images\iv_and_rv_batch1.png
+INPUT .\images\iv_and_rv_batch1.png
+INPUT .\images\iv_and_rv_batch1.png
+INPUT .\images\iv_and_rv_batch1.png
+INPUT .\images\iv_and_rv_batch1.png
+INPUT .\images\iv_and_rv_batch2.png
+INPUT .\images\iv_and_rv_batch2.png
+INPUT images\iv_and_rv_batch2.png
+INPUT .\images\iv_and_rv_batch2.png
+INPUT .\images\iv_and_rv_batch2.png
+INPUT .\images\iv_and_rv_batch2.png
+INPUT .\images\iv_and_rv_batch2.png
+INPUT .\images\iv_and_rv_otm_batch1.png
+INPUT .\images\iv_and_rv_otm_batch1.png
+INPUT images\iv_and_rv_otm_batch1.png
+INPUT .\images\iv_and_rv_otm_batch1.png
+INPUT .\images\iv_and_rv_otm_batch1.png
+INPUT .\images\iv_and_rv_otm_batch1.png
+INPUT .\images\iv_and_rv_otm_batch1.png
+INPUT .\images\iv_and_rv_otm_batch2.png
+INPUT .\images\iv_and_rv_otm_batch2.png
+INPUT images\iv_and_rv_otm_batch2.png
+INPUT .\images\iv_and_rv_otm_batch2.png
+INPUT .\images\iv_and_rv_otm_batch2.png
+INPUT .\images\iv_and_rv_otm_batch2.png
+INPUT .\images\iv_and_rv_otm_batch2.png
+INPUT .\inputs\vrp_and_skew\vrp.tex
+INPUT .\inputs\vrp_and_skew\vrp.tex
+INPUT .\inputs\vrp_and_skew\vrp.tex
+INPUT inputs\vrp_and_skew\vrp.tex
+INPUT .\inputs\vrp_and_skew\vrp.tex
+INPUT .\inputs\vrp_and_skew\vrp.tex
+INPUT inputs\vrp_and_skew\vrp.tex
+INPUT .\images\atm_vrp_violin.png
+INPUT .\images\atm_vrp_violin.png
+INPUT images\atm_vrp_violin.png
+INPUT .\images\atm_vrp_violin.png
+INPUT .\images\atm_vrp_violin.png
+INPUT .\images\atm_vrp_violin.png
+INPUT .\images\atm_vrp_violin.png
+INPUT .\images\kde_vrp_atm.png
+INPUT .\images\kde_vrp_atm.png
+INPUT images\kde_vrp_atm.png
+INPUT .\images\kde_vrp_atm.png
+INPUT .\images\kde_vrp_atm.png
+INPUT .\images\kde_vrp_atm.png
+INPUT .\images\kde_vrp_atm.png
+INPUT .\images\otm_vrp_violin.png
+INPUT .\images\otm_vrp_violin.png
+INPUT images\otm_vrp_violin.png
+INPUT .\images\otm_vrp_violin.png
+INPUT .\images\otm_vrp_violin.png
+INPUT .\images\otm_vrp_violin.png
+INPUT .\images\otm_vrp_violin.png
+INPUT .\inputs\vrp_and_skew\skew.tex
+INPUT .\inputs\vrp_and_skew\skew.tex
+INPUT .\inputs\vrp_and_skew\skew.tex
+INPUT inputs\vrp_and_skew\skew.tex
+INPUT .\inputs\vrp_and_skew\skew.tex
+INPUT .\inputs\vrp_and_skew\skew.tex
+INPUT inputs\vrp_and_skew\skew.tex
+INPUT .\images\skew_violin.png
+INPUT .\images\skew_violin.png
+INPUT images\skew_violin.png
+INPUT .\images\skew_violin.png
+INPUT .\images\skew_violin.png
+INPUT .\images\skew_violin.png
+INPUT .\images\skew_violin.png
+INPUT .\images\skew_and_rv_otm_batch1.png
+INPUT .\images\skew_and_rv_otm_batch1.png
+INPUT images\skew_and_rv_otm_batch1.png
+INPUT .\images\skew_and_rv_otm_batch1.png
+INPUT .\images\skew_and_rv_otm_batch1.png
+INPUT .\images\skew_and_rv_otm_batch1.png
+INPUT .\images\skew_and_rv_otm_batch1.png
+INPUT .\images\skew_and_rv_otm_batch2.png
+INPUT .\images\skew_and_rv_otm_batch2.png
+INPUT images\skew_and_rv_otm_batch2.png
+INPUT .\images\skew_and_rv_otm_batch2.png
+INPUT .\images\skew_and_rv_otm_batch2.png
+INPUT .\images\skew_and_rv_otm_batch2.png
+INPUT .\images\skew_and_rv_otm_batch2.png
+INPUT .\inputs\appendix.tex
+INPUT .\inputs\appendix.tex
+INPUT .\inputs\appendix.tex
+INPUT inputs\appendix.tex
+INPUT .\inputs\appendix.tex
+INPUT .\inputs\appendix.tex
+INPUT inputs\appendix.tex
+INPUT .\inputs\appendix\tickers.tex
+INPUT .\inputs\appendix\tickers.tex
+INPUT .\inputs\appendix\tickers.tex
+INPUT inputs\appendix\tickers.tex
+INPUT .\inputs\appendix\tickers.tex
+INPUT .\inputs\appendix\tickers.tex
+INPUT inputs\appendix\tickers.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT main.aux
+INPUT .\title.aux
+INPUT title.aux
+INPUT title.aux
+INPUT main.run.xml
+OUTPUT main.run.xml
+INPUT C:\Users\kumar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\kumar\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb

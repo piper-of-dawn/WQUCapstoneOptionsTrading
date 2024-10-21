@@ -1,0 +1,54 @@
+\subsection{Option price is about Volatility}
+
+In this section, I will motivate that, in the absence of any directional bias- meaning that one does not care if the underlying price rises or falls, the price of an option is only dependent upon the volatility and the time to expiration. This can be mathematically shown by deriving the price of a straddle starting with Black Scholes option pricing formula.  
+The Black-Scholes formula spot price $S_0$ and the strike price $K$ is given as:
+
+$$
+C = S_0 \Phi(d_1) - K e^{-r T} \Phi(d_2)
+$$
+
+Where $d_1$ and $d_2$ are defined as:
+
+$$
+d_1 = \frac{\ln\left(\frac{S_0}{K}\right) + \left(r + \frac{\sigma^2}{2}\right)T}{\sigma \sqrt{T}}
+$$
+
+$$
+d_2 = d_1 - \sigma \sqrt{T}
+$$
+
+This represents the intrinsic value of the option that is how much in the money is the option, right now. For an ATM option, this term would be 0. Assuming a zero cost of carry (risk free rate plus the dividend yield), the pricing formula simplifies to:
+
+Assuming the risk-free rate \( r = 0 \), the expressions simplify as follows:
+
+$$C = S_0 \left( \Phi(\frac{\sigma \sqrt{T}}{2}) - \Phi(-\frac{\sigma \sqrt{T}}{2}) \right)$$
+
+Similarly, for a put option $P$, this formula is:
+
+$$ P = S_0 \left( \Phi(-\frac{\sigma \sqrt{T}}{2}) - \Phi( \frac{\sigma \sqrt{T}}{2}) \right) $$
+
+Now we will price an ATM straddle which involves buying both a call and a put option, the price $C + P$ can be written as:
+
+$$C + P = S_0 \left( \Phi(d_1) - \Phi(d_2) \right) + S_0 \left( \Phi(-d_2) - \Phi(-d_1) \right)$$
+
+Using the symmetry of the normal distribution i.e.: $\Phi(-x) = 1 - \Phi(x)$
+
+This simplifies to:
+
+$$C + P = 2 S_0 \left( \Phi(d_1) - \Phi(d_2) \right)$$
+
+$$C + P = 2 S_0 \left( \Phi\left( \frac{\sigma \sqrt{T}}{2} \right) - \Phi\left( -\frac{\sigma \sqrt{T}}{2} \right) \right)$$
+
+Now again applying the notion of symmetry i.e. $\Phi\left( -\frac{\sigma \sqrt{T}}{2} \right) = 1 - \Phi\left( \frac{\sigma \sqrt{T}}{2} \right)$, the final expression becomes:
+
+$$C + P = 2 S_0 \left( 2\Phi\left( \frac{\sigma \sqrt{T}}{2} \right) - 1 \right)$$
+
+$\Phi$ is the CDF of standard normal distribution which is an increasing function. 
+
+The expression for the straddle price is interesting for two reasons:
+\begin{enumerate}
+    \item We can infer from this expression given an expiration, the only thing that drives the value of an option is the volatility term $\sigma$. 
+    \item Given a level of volatility, the value of straddle grows at the rate of square root of time.
+\end{enumerate}
+
+In the succeeding sections, we will be looking at the unconditional distributions of volatility and volatility risk premium across assets and deriving insights.

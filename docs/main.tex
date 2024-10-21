@@ -45,8 +45,29 @@ The paper seeks to perform an empirical study to analyze the differences (over l
 \section[Realised Volatility]{Realised Volatility}
 \input{inputs/realized_volatility}
 
+\section[Option Markets]{Options and Volatility}
+\input{inputs/vrp_and_skew/options_and_volatility}
 
+\section[Assumptions and Challenges]{Assumptions and Challenges}
+\input{inputs/vrp_and_skew/assumptions}
 
+\section[The Implied and the Realised Volatility]{Relationships between Implied and the Realised Volatility}
+\input{inputs/vrp_and_skew/iv_and_rv}
+
+\section[VRP]{Volatility Risk Premium}
+\input{inputs/vrp_and_skew/vrp}
+
+\section[Skew]{Skew}
+\input{inputs/vrp_and_skew/skew}
+
+\section{Roadmap from here}
+ 
+\begin{itemize}
+    \item Find a way to quantify the intensity of skew. One way is to look how different is the distributions of the 50-Delta IVs and 20-30 Delta IVs. Use something like the Kolgomorov-Smirnov statistic or KL Divergence to quantify the difference.
+    \item I have not used the results from the realised volatility section like mean reversion, ambient volatility and the meta volatility. See if they give any incremental information.
+    \item Do something on tail risk. See how the IVs of deep OTM options behave relative to ATM options. Which tickers are vulnerable to tail risk?
+    \item See how the rate of theta decay and the vega decay varies across tickers and moneyness. Find a way to quantify this decay rate.
+\end{itemize}
 
 \printbibliography
 \section{Appendix}

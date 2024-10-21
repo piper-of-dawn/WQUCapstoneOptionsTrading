@@ -12,6 +12,21 @@
 \contentsline {subsubsection}{\numberline {3.2.2} Ambient Volatility $(\theta )$}{7}{}%
 \contentsline {subsubsection}{\numberline {3.2.3} Mean Reversion $(\kappa )$}{8}{}%
 \contentsline {subsubsection}{\numberline {3.2.4} Meta Volatility $(\sigma )$ }{11}{}%
-\contentsline {section}{\numberline {4} Roadmap from here}{12}{}%
-\contentsline {section}{\numberline {5}Appendix}{15}{}%
-\contentsline {subsection}{\numberline {5.1}Tickers and Asset Classes}{15}{}%
+\contentsline {section}{\numberline {4}Option Markets}{13}{}%
+\contentsline {subsection}{\numberline {4.1}Option price is about Volatility}{13}{}%
+\contentsline {section}{\numberline {5}Assumptions and Challenges}{14}{}%
+\contentsline {subsection}{\numberline {5.1}Assumptions on Implied Volatility}{14}{}%
+\contentsline {subsection}{\numberline {5.2}Assumptions on Realised Volatility}{14}{}%
+\contentsline {subsection}{\numberline {5.3}Moneyness or Delta?}{15}{}%
+\contentsline {subsection}{\numberline {5.4}Cost of Hedging}{15}{}%
+\contentsline {subsection}{\numberline {5.5}Selection of Tickers}{15}{}%
+\contentsline {section}{\numberline {6}The Implied and the Realised Volatility}{16}{}%
+\contentsline {subsection}{\numberline {6.1}Correlations and Clustering between the Implied and the Realised Volatility}{16}{}%
+\contentsline {section}{\numberline {7}VRP}{19}{}%
+\contentsline {subsection}{\numberline {7.1}VRP of 50-Delta Options}{19}{}%
+\contentsline {subsection}{\numberline {7.2}VRP of 25 to 30-Delta Options}{21}{}%
+\contentsline {section}{\numberline {8}Skew}{22}{}%
+\contentsline {subsection}{\numberline {8.1}What is skew and what does it measure? }{22}{}%
+\contentsline {section}{\numberline {9}Roadmap from here}{25}{}%
+\contentsline {section}{\numberline {10}Appendix}{28}{}%
+\contentsline {subsection}{\numberline {10.1}Tickers and Asset Classes}{28}{}%

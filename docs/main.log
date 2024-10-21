@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.21)  30 SEP 2024 07:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.21)  21 OCT 2024 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1668,49 +1668,138 @@ File: images/meta_volatility_vs_mean_reversion.png Graphic file (type png)
 Package pdftex.def Info: images/meta_volatility_vs_mean_reversion.png  used on 
 input line 115.
 (pdftex.def)             Requested size: 452.9679pt x 226.48647pt.
+))
+(inputs/vrp_and_skew/options_and_volatility.tex [12 <./images/meta_volatility_v
+s_ambient_volatility.png> <./images/meta_volatility_vs_mean_reversion.png>]
+[13]) (inputs/vrp_and_skew/assumptions.tex [14]
 
-[12 <./images/meta_volatility_vs_ambient_volatility.png> <./images/meta_volatil
-ity_vs_mean_reversion.png>])) [13] (inputs/appendix.tex
-(inputs/appendix/tickers.tex)) [14]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/ticker_color_code.png, id=84, 349.7868pt x 125.7498pt>
+File: images/ticker_color_code.png Graphic file (type png)
+<use images/ticker_color_code.png>
+Package pdftex.def Info: images/ticker_color_code.png  used on input line 64.
+(pdftex.def)             Requested size: 362.37569pt x 130.2759pt.
+) (inputs/vrp_and_skew/iv_and_rv.tex
+Overfull \hbox (5.25017pt too wide) in paragraph at lines 1--1
+[]\OT1/cmr/bx/n/12 Correlations and Clus-ter-ing be-tween the Im-plied and the 
+Re-alised Volatil-
+ []
+
+<images/iv_and_rv_batch1.png, id=85, 1076.823pt x 569.4876pt>
+File: images/iv_and_rv_batch1.png Graphic file (type png)
+<use images/iv_and_rv_batch1.png>
+Package pdftex.def Info: images/iv_and_rv_batch1.png  used on input line 6.
+(pdftex.def)             Requested size: 452.9679pt x 239.55681pt.
+[15 <./images/ticker_color_code.png>]
+Overfull \hbox (14.54338pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 20+ Year Trea-sury Bond ETF (TLT), iShares iBoxx \TS1/cmr/m/n/1
+0 $ \OT1/cmr/m/n/10 In-vest-ment Grade Cor-po-rate Bond ETF (LQD), SPDR
+ []
+
+[16 <./images/iv_and_rv_batch1.png>]
+<images/iv_and_rv_batch2.png, id=95, 1075.3776pt x 569.4876pt>
+File: images/iv_and_rv_batch2.png Graphic file (type png)
+<use images/iv_and_rv_batch2.png>
+Package pdftex.def Info: images/iv_and_rv_batch2.png  used on input line 15.
+(pdftex.def)             Requested size: 452.9679pt x 239.87833pt.
+<images/iv_and_rv_otm_batch1.png, id=96, 1075.3776pt x 569.4876pt>
+File: images/iv_and_rv_otm_batch1.png Graphic file (type png)
+<use images/iv_and_rv_otm_batch1.png>
+Package pdftex.def Info: images/iv_and_rv_otm_batch1.png  used on input line 24
+.
+(pdftex.def)             Requested size: 452.9679pt x 239.87833pt.
+ [17 <./images/iv_and_rv_batch2.png>]
+<images/iv_and_rv_otm_batch2.png, id=101, 1075.3776pt x 569.4876pt>
+File: images/iv_and_rv_otm_batch2.png Graphic file (type png)
+<use images/iv_and_rv_otm_batch2.png>
+Package pdftex.def Info: images/iv_and_rv_otm_batch2.png  used on input line 31
+.
+(pdftex.def)             Requested size: 452.9679pt x 239.87833pt.
+)
+(inputs/vrp_and_skew/vrp.tex [18 <./images/iv_and_rv_otm_batch1.png> <./images/
+iv_and_rv_otm_batch2.png>]
+<images/atm_vrp_violin.png, id=108, 684.3969pt x 828.9369pt>
+File: images/atm_vrp_violin.png Graphic file (type png)
+<use images/atm_vrp_violin.png>
+Package pdftex.def Info: images/atm_vrp_violin.png  used on input line 9.
+(pdftex.def)             Requested size: 452.9679pt x 548.64317pt.
+ [19] [20 <./images/atm_vrp_violin.png>]
+<images/kde_vrp_atm.png, id=116, 867.9627pt x 607.068pt>
+File: images/kde_vrp_atm.png Graphic file (type png)
+<use images/kde_vrp_atm.png>
+Package pdftex.def Info: images/kde_vrp_atm.png  used on input line 23.
+(pdftex.def)             Requested size: 452.9679pt x 316.81653pt.
+<images/otm_vrp_violin.png, id=117, 664.884pt x 828.9369pt>
+File: images/otm_vrp_violin.png Graphic file (type png)
+<use images/otm_vrp_violin.png>
+Package pdftex.def Info: images/otm_vrp_violin.png  used on input line 37.
+(pdftex.def)             Requested size: 452.9679pt x 564.73212pt.
+) [21 <./images/kde_vrp_atm.png>] (inputs/vrp_and_skew/skew.tex [22 <./images/o
+tm_vrp_violin.png>]
+<images/skew_violin.png, id=126, 690.9012pt x 828.9369pt>
+File: images/skew_violin.png Graphic file (type png)
+<use images/skew_violin.png>
+Package pdftex.def Info: images/skew_violin.png  used on input line 21.
+(pdftex.def)             Requested size: 452.9679pt x 543.48256pt.
+ [23]
+<images/skew_and_rv_otm_batch1.png, id=130, 1076.1003pt x 569.4876pt>
+File: images/skew_and_rv_otm_batch1.png Graphic file (type png)
+<use images/skew_and_rv_otm_batch1.png>
+Package pdftex.def Info: images/skew_and_rv_otm_batch1.png  used on input line 
+30.
+(pdftex.def)             Requested size: 452.9679pt x 239.71323pt.
+<images/skew_and_rv_otm_batch2.png, id=131, 1074.6549pt x 569.4876pt>
+File: images/skew_and_rv_otm_batch2.png Graphic file (type png)
+<use images/skew_and_rv_otm_batch2.png>
+Package pdftex.def Info: images/skew_and_rv_otm_batch2.png  used on input line 
+38.
+(pdftex.def)             Requested size: 452.9679pt x 240.04343pt.
+ [24 <./images/skew_violin.png>]) [25 <./images/skew_and_rv_otm_batch1.png> <./
+images/skew_and_rv_otm_batch2.png>]
+Overfull \hbox (1.31174pt too wide) in paragraph at lines 73--73
+[][]\OT1/cmr/m/n/10 Abdelmessih, K. (2020). Lessons from the 50 delta op-tion [
+Ac-cessed: 2024-10-21]. $https : / / moontowermeta .
+ []
+
+[26] (inputs/appendix.tex (inputs/appendix/tickers.tex)) [27]
 Overfull \vbox (793.84363pt too high) has occurred while \output is active []
 
 
-[15] (main.aux (title.aux))
+[28] (main.aux (title.aux))
 
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27464 strings out of 475385
- 541356 string characters out of 2786722
- 1414921 words of memory out of 3000000
- 48349 multiletter control sequences out of 15000+600000
+ 27611 strings out of 475385
+ 546097 string characters out of 2786722
+ 1415337 words of memory out of 3000000
+ 48469 multiletter control sequences out of 15000+600000
  476680 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,108p,1150b,5170s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,9n,108p,1150b,5170s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\kumar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
- Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.p
-fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (16 pages, 859044 bytes).
+s/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (29 pages, 2294292 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 223 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
