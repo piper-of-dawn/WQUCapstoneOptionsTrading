@@ -5,6 +5,14 @@
 
 ## FAQ
 
+#### Where is the code?
+
+Clone this Github Repo:
+
+```
+https://github.com/piper-of-dawn/WQUCapstoneOptionsTrading
+```
+
 #### Where will I get the data?
 The data is is in Gigabytes and I cannot put it on Git. It is hosted publically on my Google Drive. 
 
@@ -14,6 +22,8 @@ Make sure the data is stored in a folder called DATA (all capitals) in the root 
 
 #### What libraries do I need to install?
 
+```
 pip install numpy plotly polars tqdm matplotlib scipy
+```
 
 

@@ -33,6 +33,7 @@ def get_daily_volatility(ticker):
         [
             (pl.col("log_return_5m").sum().exp() - 1).alias("daily_return"),
             ((pl.col("log_return_5m").std()) * scale).alias("daily_volatility"),
+            ((pl.col("log_return_5m").std()) * scale * np.sqrt(252)).alias("annualized_volatility"),
             pl.col("mean_spread").mean(),
         ]
     )
@@ -44,3 +45,6 @@ def get_volatility_array (ticker):
     assert not np.isnan(array).any(), f"There are {np.sum(np.isnan(array))} NaNs in the array for {ticker}"
     assert not np.isinf(array).any(),f"There are Infinities in the array for {ticker}"
     return array
+
+
+

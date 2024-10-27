@@ -134,10 +134,11 @@ def fetch (start_expirations_strike):
     expiration = stringify_date(expiration)
     url = f"http://127.0.0.1:25510/v2/hist/option/greeks?root={ticker}&exp={expiration}&strike={strike}&right={os.environ['TYPE']}&start_date={trading_day}&end_date={expiration}&ivl={os.environ['INTERVAL']}"
     try:
+        append_log(f"FETCHING:  Ticker - {ticker} | Strike - {strike} | Expiration - {expiration} | Trading Day - {trading_day}", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
         response = requests.get(url)
         if response.status_code != 200:
             
-            append_log(f"API returned a status code {response.status_code} for {ticker} with expiration {expiration} for trading day {trading_day}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+            append_log(f"API returned a status code {response.status_code} for Ticker - {ticker} | Strike - {strike} | Expiration - {expiration} | Trading Day - {trading_day}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
             append_log(f"RogueURL: {url}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
             df = pl.DataFrame(None, schema=greeks_schema_dict).with_columns([
             pl.lit(expiration).alias('expiration'),
@@ -152,7 +153,7 @@ def fetch (start_expirations_strike):
             pl.lit(ticker).alias('ticker'),
         ]) 
     except Exception as e:
-        append_log(f"Failed to fetch data for {ticker} with expiration {expiration}  for trading day {trading_day} with error {e}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+        append_log(f"Failed to fetch data for {ticker} with expiration {expiration}, strike {strike} for trading day {trading_day} with error {e}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
         # Handle empty dataframes (just in case)
         df = pl.DataFrame(None, schema=greeks_schema_dict).with_columns([
             pl.lit(expiration).alias('expiration'),
@@ -243,13 +244,14 @@ def get_unique_trading_days (ticker):
 def subset_strikes (ticker, trading, expiration, subset_strikes_func=subset_within_20_percent):
     # moneyness_array = get_moneyness_range(9, 11, 0.5)
     df = get_paired_expiration_and_strike_for_all_available_expirations_as_polars(ticker)
-    spot_price = get_spot_for_trading_day(ticker, trading)
+    # spot_price = get_spot_for_trading_day(ticker, trading)
     if not len(df):
         return pl.DataFrame
     trading_expiration_pair = df.filter((pl.col('trading_day') == trading) & (pl.col('expiration_day') == expiration) & (pl.col('ticker') == ticker))
-    nearest_strikes = subset_strikes_func(trading_expiration_pair['strike'].to_numpy(), spot_price*1000)
+    # nearest_strikes = subset_strikes_func(trading_expiration_pair['strike'].to_numpy(), spot_price*1000)
     # nearest_strikes = get_neighboring_strikes(ticker, trading, trading_expiration_pair['strike'])
     # nearest_strikes = [find_nearest_strike(ticker, moneyness/10, trading, .to_numpy()) for moneyness in moneyness_array]
+    nearest_strikes = make_list_sparse(trading_expiration_pair['strike'].unique().sort().to_list(), 50)
     if len(nearest_strikes):
         subsetted_strikes = trading_expiration_pair.filter(pl.col('strike').is_in(nearest_strikes))
         return subsetted_strikes
@@ -260,17 +262,7 @@ def subset_strikes (ticker, trading, expiration, subset_strikes_func=subset_with
 def get_relevant_expirations_and_strikes (ticker):
     return pl.concat(subset_strikes(ticker, trading_day, expiration_day) for trading_day, expiration_day in get_unique_trading_days(ticker).iter_rows()).join(get_median_price_dataframe().filter(pl.col('ticker') == ticker).drop('ticker'), left_on='trading_day', right_on='date').sort('trading_day')
 
-@time_it
-def parallel_fetch(ticker):
-    relevant_data = get_relevant_expirations_and_strikes(ticker).select(['trading_day', 'expiration_day', 'strike','ticker'])
-    paired_expirations_and_strike = [row for row in relevant_data.iter_rows()]
-    append_log(f"We will hit API {len(paired_expirations_and_strike)} times for {ticker}", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        results = list(executor.map(fetch, tqdm(paired_expirations_and_strike)))
-    append_log(f":) All expirations and strikes for {ticker} fetched successfully.", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
-    df = pl.concat(results)
-    df.write_parquet(f'{os.environ['FOLDER']}/{ticker}.parquet')
-    return None
+
 
 
 def append_to_file(filename, text):
@@ -278,7 +270,7 @@ def append_to_file(filename, text):
         file.write(text + "\n")  # Append the text followed by a newline
 
 @lru_cache(maxsize=128)
-def read_file(filename='completed_tickers.txt'):
+def read_file(filename='important_tickers_completed.txt'):
     with open (filename, 'r') as f:
         return f.read().splitlines()
 
@@ -287,27 +279,61 @@ def split_list(lst):
     return lst[:mid], lst[mid:]  # Slice the list into two halves
 
 
+
+def create_directory_if_not_exists(dir_path: str):
+    """Creates a directory if it doesn't exist."""
+    os.makedirs(dir_path, exist_ok=True)
+
+@time_it
+def parallel_fetch(ticker, between):
+    relevant_data = get_relevant_expirations_and_strikes(ticker).select(['trading_day', 'expiration_day', 'strike','ticker'])
+    relevant_data = relevant_data.filter(pl.col('trading_day').dt.year().is_between(*between))   
+    paired_expirations_and_strike = [row for row in relevant_data.iter_rows()]
+    append_log(f"We will hit API {len(paired_expirations_and_strike)} times for {ticker}", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        results = list(executor.map(fetch, tqdm(paired_expirations_and_strike)))
+    append_log(f":) All expirations and strikes for {ticker} fetched successfully.", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
+    df = pl.concat(results)
+    df.write_parquet(f"C:/git/MSThesis/{os.environ['FOLDER']}/{ticker}/{ticker}_{between[0]}_{between[1]}.parquet")
+    return None
+
 def main():
-    tickers = pl.read_csv('tickers_and_category.csv')['ticker'].to_list()
-    tickers = split_list(tickers)[0]
-    os.environ['LOG_FILE_NAME'] = 'logs/calldata.log'
+    # tickers = pl.read_csv('tickers.csv')['ticker'].to_list()
+    # tickers = ['EMB','HYG', 'LQD'] 
+    # tickers = pl.read_csv('important_tickers.csv').filter(pl.col('Asset Class')=='Credit')['Ticker'].to_list()  
+    # os.environ['LOG_FILE_NAME'] = 'logs/credit.log'
+    # tickers = pl.read_csv('important_tickers.csv').filter(pl.col('Asset Class')=='FX')['Ticker'].to_list()  
+    # os.environ['LOG_FILE_NAME'] = 'logs/FX.log'
+    # os.environ['LOG_FILE_NAME'] = 'logs/fixed_income_call.log'
+    # os.environ['INTERVAL'] = '300000'
+    # os.environ['TYPE'] = 'C'
+    # os.environ['FOLDER'] = 'CALL'
+    # os.environ['USE_CACHE'] = 'False'
+    # completed_file_name = 'important_tickers_completed_call'
+    os.environ['LOG_FILE_NAME'] = 'logs/fixed_income_put.log'
     os.environ['INTERVAL'] = '300000'
     os.environ['TYPE'] = 'P'
     os.environ['FOLDER'] = 'PUT'
-    os.environ['USE_CACHE'] = 'True'
+    os.environ['USE_CACHE'] = 'False'
+    completed_file_name = 'important_tickers_completed_put'
+    
+    tickers = ['MDY']
     for ticker in tqdm(tickers):
-        print(ticker)
-        if ticker in read_file('completed_tickers.txt'):
-            append_log(f"{ticker} already fetched", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
-            continue
-        try:
-            parallel_fetch(ticker)
-            append_to_file("completed_tickers.txt", ticker)
+        # create_directory_if_not_exists(f"C:/git/MSThesis/{os.environ['FOLDER']}/{ticker}")
+        for btwn in [(2021,2022)]:
+            print (f"Fetching data for {ticker} between {btwn}")
+            print(ticker)
+            # if ticker in read_file(f'{completed_file_name}.txt'):
+            #     append_log(f"{ticker} already fetched", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
+            #     continue
+            try:
+                parallel_fetch(ticker, between=btwn)
+                append_to_file(f"{completed_file_name}.txt", ticker)
 
-        except Exception as e:
-            append_log(e, level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
-            append_log(f"Failed to fetch data for {ticker}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
-            continue
+            except Exception as e:
+                append_log(e, level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+                append_log(f"Failed to fetch data for {ticker}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+                continue
 
 
 

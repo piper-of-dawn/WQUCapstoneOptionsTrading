@@ -1,6 +1,5 @@
 import polars as pl
 import requests
-from bisect import bisect_left
 import pandas as pd
 from datetime import timedelta
 from functools import lru_cache
@@ -12,12 +11,9 @@ import diskcache as dc
 from loguru import logger
 import numpy as np
 from toolbox import append_log
-
-import os
 debug = logger.debug
 
 cache = dc.Cache('api_cache')
-
 
 def get_start_and_end_day (ticker):
     quotes_availability = pl.read_parquet('DATA/quote_data_with_min_max_dates.parquet')
@@ -44,8 +40,8 @@ def get_available_expirations(ticker):
     url = f"http://127.0.0.1:25510/v2/list/expirations?root={ticker}"
     api_response = requests.get(url)
     if api_response.status_code != 200:
-        append_log(f"Failed to fetch data for {ticker} with status code {api_response.status_code}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
-        append_log(url, level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+        append_log(f"Failed to fetch data for {ticker} with status code {api_response.status_code}", level='ERROR', log_file=f'logs/data_fetcher.log')
+        append_log(url, level='ERROR', log_file=f'logs/data_fetcher.log')
         return pl.Series(None)
     total_expirations = pl.Series(api_response.json()['response']).cast(pl.String).str.to_date('%Y%m%d')
     expirations_to_study = total_expirations.filter((total_expirations > start_day) & (total_expirations < end_day))    
@@ -56,21 +52,20 @@ def get_available_expirations(ticker):
     contracts = contracts1.append(contracts2)
     contracts = pl.Series(contracts).cast(pl.Date)
     available_expirations = expirations_to_study.filter(expirations_to_study.is_in(contracts))
-    append_log(f"Total number of expirations for {ticker}: {len(total_expirations)}", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
-    append_log(f"Total number of 3rd Fridays and subsequent Saturdays since {start_day}: {len(contracts)}", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
-    append_log(f"Intersection of number of 3rd Fridays and subsequent Saturdays and expirations available for {ticker} since {start_day}: {len(available_expirations)}", level='INFO', log_file=os.environ['LOG_FILE_NAME'])  
+    append_log(f"Total number of expirations for {ticker}: {len(total_expirations)}", level='INFO', log_file=f'logs/data_fetcher.log')
+    append_log(f"Total number of 3rd Fridays and subsequent Saturdays since {start_day}: {len(contracts)}", level='INFO', log_file=f'logs/data_fetcher.log')
+    append_log(f"Intersection of number of 3rd Fridays and subsequent Saturdays and expirations available for {ticker} since {start_day}: {len(available_expirations)}", level='INFO', log_file=f'logs/data_fetcher.log')  
     return available_expirations
 
-def get_strike (ticker, expiration): 
-    use_cache = eval(os.environ['USE_CACHE'])    
+def get_strike (ticker, expiration, use_cache=True): 
     if use_cache: 
         if ticker in cache:
-            append_log(f"Fetching from cache for ticker {ticker}", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
+            append_log(f"Fetching from cache for ticker {ticker}", level='INFO', log_file=f'logs/data_fetcher.log')
             return cache[ticker] 
     api_response = requests.get(f"http://127.0.0.1:25510/v2/list/strikes?root={ticker}&exp={stringify_date(expiration)}")
     if api_response.status_code != 200:
-        append_log(f"Failed to fetch data for {ticker} with status code {api_response.status_code}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
-        append_log(f"http://127.0.0.1:25510/v2/list/strikes?root={ticker}&exp={stringify_date(expiration)}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+        append_log(f"Failed to fetch data for {ticker} with status code {api_response.status_code}", level='ERROR', log_file=f'logs/data_fetcher.log')
+        append_log(f"http://127.0.0.1:25510/v2/list/strikes?root={ticker}&exp={stringify_date(expiration)}", level='ERROR', log_file=f'logs/data_fetcher.log')
         return pl.Series(None)
     strikes = pl.Series(api_response.json()['response'])
     cache.set(ticker, strikes, expire=None)
@@ -93,9 +88,9 @@ def get_paired_expiration_and_strike (ticker, expiration_day):
     try:
         current, next = list(paired_expirations.filter(pl.col('current')==expiration_day).iter_rows())[0]
     except Exception as e:
-        append_log(e, level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
-        append_log(f"Expiration {expiration_day} is not available for {ticker}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
-        append_log(list(paired_expirations.filter(pl.col('current')==expiration_day).iter_rows()), level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+        append_log(e, level='ERROR', log_file=f'logs/data_fetcher.log')
+        append_log(f"Expiration {expiration_day} is not available for {ticker}", level='ERROR', log_file=f'logs/data_fetcher.log')
+        append_log(list(paired_expirations.filter(pl.col('current')==expiration_day).iter_rows()), level='ERROR', log_file=f'logs/data_fetcher.log')
     return list(product([current], [next], expiration_and_strike_dict[current], [ticker]))
 
 def get_paired_expiration_and_strike_for_all_available_expirations (ticker):
@@ -132,13 +127,13 @@ def fetch (start_expirations_strike):
     trading_day, expiration, strike, ticker = start_expirations_strike
     trading_day = stringify_date(trading_day)
     expiration = stringify_date(expiration)
-    url = f"http://127.0.0.1:25510/v2/hist/option/greeks?root={ticker}&exp={expiration}&strike={strike}&right={os.environ['TYPE']}&start_date={trading_day}&end_date={expiration}&ivl={os.environ['INTERVAL']}"
+    url = f"http://127.0.0.1:25510/v2/hist/option/greeks?root={ticker}&exp={expiration}&strike={strike}&right=C&start_date={trading_day}&end_date={expiration}&ivl=300000"
     try:
         response = requests.get(url)
         if response.status_code != 200:
             
-            append_log(f"API returned a status code {response.status_code} for {ticker} with expiration {expiration} for trading day {trading_day}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
-            append_log(f"RogueURL: {url}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+            append_log(f"API returned a status code {response.status_code} for {ticker} with expiration {expiration} for trading day {trading_day}", level='ERROR', log_file=f'logs/data_fetcher.log')
+            append_log(f"RogueURL: {url}", level='ERROR', log_file=f'logs/data_fetcher.log')
             df = pl.DataFrame(None, schema=greeks_schema_dict).with_columns([
             pl.lit(expiration).alias('expiration'),
             pl.lit(strike).alias('strike'),
@@ -152,7 +147,7 @@ def fetch (start_expirations_strike):
             pl.lit(ticker).alias('ticker'),
         ]) 
     except Exception as e:
-        append_log(f"Failed to fetch data for {ticker} with expiration {expiration}  for trading day {trading_day} with error {e}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+        append_log(f"Failed to fetch data for {ticker} with expiration {expiration}  for trading day {trading_day} with error {e}", level='ERROR', log_file=f'logs/data_fetcher.log')
         # Handle empty dataframes (just in case)
         df = pl.DataFrame(None, schema=greeks_schema_dict).with_columns([
             pl.lit(expiration).alias('expiration'),
@@ -161,8 +156,7 @@ def fetch (start_expirations_strike):
         ]) 
     return df
 
-def get_moneyness_range (lower, higher, step):
-    return np.arange(lower, higher, step)
+
 
 
 @lru_cache(maxsize=10)
@@ -188,48 +182,6 @@ def find_nearest_strike(ticker, moneyness, trading_day, strike_prices):
     candidates = [strike for i, strike in enumerate(strike_prices) if differences[i] == min_diff]
     return min(candidates)*1000
 
-def find_neighbors(sorted_list, num):
-    if isinstance(sorted_list, np.ndarray):  # Use np.ndarray instead of np.array
-        sorted_list = sorted_list.tolist()
-    if not sorted_list:
-        return []
-    idx = bisect_left(sorted_list, num)
-    start = max(0, idx - 5)  # Ensure we don't go out of bounds
-    end = min(len(sorted_list), idx + 6)  # Include the number and 5 after it
-    return sorted_list[start:end]
-
-def get_neighboring_strikes (ticker, trading_day, strike_prices):
-    strike_prices = strike_prices.to_list()
-    spot_price = get_spot_for_trading_day(ticker, trading_day)
-    neighbours = find_neighbors((strike_prices.sort()), spot_price*1000)
-    if not neighbours:
-        append_log(f"No neighbors found for {ticker}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
-        raise ValueError(f"No neighbors found for {ticker}")
-    return neighbours
-
-
-def make_list_sparse(dense_list, target_size):
-    if target_size >= len(dense_list):
-        return dense_list  # If target size is greater than or equal to the length of the list, return original list
-    
-    indices = np.linspace(0, len(dense_list) - 1, target_size, dtype=int)    
-    sparse_list = [dense_list[i] for i in indices]    
-    return sparse_list
-
-def subset_within_20_percent(arr, num): 
-    append_log(f"Max: {arr.min()}, Median: {np.median(arr)}, Max: {arr.max()}, N: {len(arr)}", level='INFO', log_file="logs/strikes.log")
-    arr = np.array(arr)
-    lower_bound = num * 0.7
-    upper_bound = num * 1.3
-    subset = arr[(arr >= lower_bound) & (arr <= upper_bound)]  
-    if len(subset) > 15:
-        subset = make_list_sparse(subset.tolist(), 15)  #
-        subset_numpy = np.array(subset)
-        append_log(f"Max: {subset_numpy.min()}, Median: {np.median(subset_numpy)}, Max: {subset_numpy.max()}, N: {len(subset_numpy)}", level='INFO', log_file="logs/strikes.log")
-        return subset
-    else:
-        return subset
-    
 
 
 @lru_cache(maxsize=128)
@@ -240,21 +192,16 @@ def get_paired_expiration_and_strike_for_all_available_expirations_as_polars (ti
 def get_unique_trading_days (ticker):
     return get_paired_expiration_and_strike_for_all_available_expirations_as_polars(ticker).filter(pl.col('trading_day').is_in(get_median_price_dataframe().filter(pl.col('ticker') == ticker)['date'])).select(['trading_day', 'expiration_day']).unique().sort('trading_day')
 
-def subset_strikes (ticker, trading, expiration, subset_strikes_func=subset_within_20_percent):
-    # moneyness_array = get_moneyness_range(9, 11, 0.5)
+def subset_strikes (ticker, trading, expiration):
     df = get_paired_expiration_and_strike_for_all_available_expirations_as_polars(ticker)
-    spot_price = get_spot_for_trading_day(ticker, trading)
     if not len(df):
         return pl.DataFrame
     trading_expiration_pair = df.filter((pl.col('trading_day') == trading) & (pl.col('expiration_day') == expiration) & (pl.col('ticker') == ticker))
-    nearest_strikes = subset_strikes_func(trading_expiration_pair['strike'].to_numpy(), spot_price*1000)
-    # nearest_strikes = get_neighboring_strikes(ticker, trading, trading_expiration_pair['strike'])
-    # nearest_strikes = [find_nearest_strike(ticker, moneyness/10, trading, .to_numpy()) for moneyness in moneyness_array]
-    if len(nearest_strikes):
-        subsetted_strikes = trading_expiration_pair.filter(pl.col('strike').is_in(nearest_strikes))
-        return subsetted_strikes
+    nearest_strikes = [find_nearest_strike(ticker, moneyness/10, trading, trading_expiration_pair['strike'].to_numpy()) for moneyness in range(3,14,1)]
+    if nearest_strikes:
+        return trading_expiration_pair.filter(pl.col('strike').is_in(nearest_strikes))
     else:
-        append_log(f"No strikes found for {ticker} for trading day {trading} and expiration day {expiration}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+        append_log(f"No strikes found for {ticker} for trading day {trading} and expiration day {expiration}", level='ERROR', log_file=f'logs/data_fetcher.log')
         return pl.DataFrame(schema=trading_expiration_pair.schema)
 
 def get_relevant_expirations_and_strikes (ticker):
@@ -262,14 +209,13 @@ def get_relevant_expirations_and_strikes (ticker):
 
 @time_it
 def parallel_fetch(ticker):
-    relevant_data = get_relevant_expirations_and_strikes(ticker).select(['trading_day', 'expiration_day', 'strike','ticker'])
-    paired_expirations_and_strike = [row for row in relevant_data.iter_rows()]
-    append_log(f"We will hit API {len(paired_expirations_and_strike)} times for {ticker}", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
+    paired_expirations_and_strike = [row for row in get_relevant_expirations_and_strikes(ticker).select(['trading_day', 'expiration_day', 'strike','ticker']).iter_rows()]
+    append_log(f"We will hit API {len(paired_expirations_and_strike)} times for {ticker}", level='INFO', log_file=f'logs/data_fetcher.log')
     with concurrent.futures.ThreadPoolExecutor() as executor:
         results = list(executor.map(fetch, tqdm(paired_expirations_and_strike)))
-    append_log(f":) All expirations and strikes for {ticker} fetched successfully.", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
+    append_log(f":) All expirations and strikes for {ticker} fetched successfully.", level='INFO', log_file=f'logs/data_fetcher.log')
     df = pl.concat(results)
-    df.write_parquet(f'{os.environ['FOLDER']}/{ticker}.parquet')
+    df.write_parquet(f'DATA/{ticker}.parquet')
     return None
 
 
@@ -281,37 +227,24 @@ def append_to_file(filename, text):
 def read_file(filename='completed_tickers.txt'):
     with open (filename, 'r') as f:
         return f.read().splitlines()
-
-def split_list(lst):
-    mid = len(lst) // 2  # Calculate the midpoint
-    return lst[:mid], lst[mid:]  # Slice the list into two halves
-
-
+    
 def main():
-    tickers = pl.read_csv('tickers_and_category.csv')['ticker'].to_list()
-    tickers = split_list(tickers)[0]
-    os.environ['LOG_FILE_NAME'] = 'logs/calldata.log'
-    os.environ['INTERVAL'] = '300000'
-    os.environ['TYPE'] = 'P'
-    os.environ['FOLDER'] = 'PUT'
-    os.environ['USE_CACHE'] = 'True'
+    # tickers = pl.read_csv('tickersAndIndustries.csv')['ticker'].to_list()
+    tickers = ['AAPL']
     for ticker in tqdm(tickers):
         print(ticker)
         if ticker in read_file('completed_tickers.txt'):
-            append_log(f"{ticker} already fetched", level='INFO', log_file=os.environ['LOG_FILE_NAME'])
+            append_log(f"{ticker} already fetched", level='INFO', log_file=f'logs/data_fetcher.log')
             continue
         try:
             parallel_fetch(ticker)
-            append_to_file("completed_tickers.txt", ticker)
+            append_to_file("completed_tickers.txt", "new_string")
 
         except Exception as e:
-            append_log(e, level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
-            append_log(f"Failed to fetch data for {ticker}", level='ERROR', log_file=os.environ['LOG_FILE_NAME'])
+            append_log(e, level='ERROR', log_file=f'logs/data_fetcher.log')
+            append_log(f"Failed to fetch data for {ticker}", level='ERROR', log_file=f'logs/data_fetcher.log')
             continue
 
 
-
-
-
-if __name__ == "__main__":    
+if __name__ == "__main__":
     main()

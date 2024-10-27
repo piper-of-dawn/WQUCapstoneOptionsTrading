@@ -217,7 +217,7 @@ def make_list_sparse(dense_list, target_size):
     return sparse_list
 
 def subset_within_20_percent(arr, num): 
-    append_log(f"Max: {arr.min()}, Median: {np.median(arr)}, Max: {arr.max()}, N: {len(arr)}", level='INFO', log_file="logs/strikes.log")
+    # append_log(f"Max: {arr.min()}, Median: {np.median(arr)}, Max: {arr.max()}, N: {len(arr)}", level='INFO', log_file="logs/strikes.log")
     arr = np.array(arr)
     lower_bound = num * 0.7
     upper_bound = num * 1.3
@@ -225,7 +225,7 @@ def subset_within_20_percent(arr, num):
     if len(subset) > 15:
         subset = make_list_sparse(subset.tolist(), 15)  #
         subset_numpy = np.array(subset)
-        append_log(f"Max: {subset_numpy.min()}, Median: {np.median(subset_numpy)}, Max: {subset_numpy.max()}, N: {len(subset_numpy)}", level='INFO', log_file="logs/strikes.log")
+        # append_log(f"Max: {subset_numpy.min()}, Median: {np.median(subset_numpy)}, Max: {subset_numpy.max()}, N: {len(subset_numpy)}", level='INFO', log_file="logs/strikes.log")
         return subset
     else:
         return subset
@@ -289,8 +289,8 @@ def split_list(lst):
 
 def main():
     tickers = pl.read_csv('tickers_and_category.csv')['ticker'].to_list()
-    tickers = split_list(tickers)[0]
-    os.environ['LOG_FILE_NAME'] = 'logs/calldata.log'
+    tickers = split_list(tickers)[1]
+    os.environ['LOG_FILE_NAME'] = 'logs/data_fetcher.log'
     os.environ['INTERVAL'] = '300000'
     os.environ['TYPE'] = 'P'
     os.environ['FOLDER'] = 'PUT'

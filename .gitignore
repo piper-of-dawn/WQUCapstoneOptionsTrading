@@ -1,6 +1,5 @@
 *.parquet
 secrets.env
-ThetaTerminal
 Natenberg - Chapter 4 and 5.pdf
 trash.md
 __pycache__/

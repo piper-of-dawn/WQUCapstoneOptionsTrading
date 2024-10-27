@@ -1,0 +1,22 @@
+ticker,category
+FXY,FX
+FXE,FX
+GLD,Metals
+SLV,Metals
+TLT,Rates
+IEF,Rates
+HYG,US Credit
+LQD,US Credit
+EMB,Emerging Credit
+VWO,Emerging Index
+IJR,Small Cap Index
+IWM,Small Cap Index
+MDY,Mid Cap Index
+SPY,Large Cap Index
+XLE,Energy
+AMD,Semi
+TSM,Semi
+INTC,Semi
+NVDA,Semi
+TSLA,Auto
+F,Auto
